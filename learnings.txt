@@ -1,0 +1,8 @@
+https://kaitai.io/
+    A new way to develop parsers for binary structures.
+    https://formats.kaitai.io/tls_client_hello/go.html
+
+
+How TLS work: client is the one initiate 'hello' to client 
+1) clienthello 
+2) server hello
