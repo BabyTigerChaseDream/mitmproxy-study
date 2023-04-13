@@ -1,0 +1,28 @@
+02G7195Q05R:socat jiaguo$ mitmweb -vvvvv
+[10:19:26.169] HTTP(S) proxy listening at *:8080.
+[10:19:26.169] Web server listening at http://127.0.0.1:8081/
+[10:19:26.730][[::1]:53341] client connect
+[10:19:26.856][[::1]:53341] server connect clientstream.launchdarkly.com:443 (13.248.151.210:443)
+[10:20:37.254][[::1]:53532] server disconnect sha9gwgp.booking.com:443 (58.33.200.21:443)
+[10:20:37.282][[::1]:53532] server connect sha9gwgp.booking.com:443 (58.33.200.21:443)
+[10:20:37.399][[::1]:53537] client connect
+[10:20:38.387][127.0.0.1:53405] client disconnect
+[10:20:38.387][127.0.0.1:53405] closing transports...
+[10:20:38.388][[::1]:53403] error establishing server connection: client disconnected
+[10:20:38.389][127.0.0.1:53405] error establishing server connection: client disconnected
+[10:20:38.391][[::1]:53403] transports closed!
+[10:20:38.391][127.0.0.1:53405] transports closed!
+[10:20:38.522][[::1]:53550] client connect
+[10:20:38.535][[::1]:53550] server connect 58.33.200.21:443
+[10:20:38.579][[::1]:53550] Client TLS handshake failed. The client does not trust the proxy's certificate for sha9gwgp.booking.com (OpenSSL Error([('SSL routines', 'ssl3_read_bytes', 'sslv3 alert certificate unknown')]))
+[10:20:38.580][[::1]:53550] client disconnect
+[10:20:38.581][[::1]:53550] closing transports...
+[10:20:38.582][[::1]:53550] server disconnect 58.33.200.21:443
+[10:20:38.582][[::1]:53550] transports closed!
+[10:20:39.141][127.0.0.1:53565] client connect
+[10:20:39.263][127.0.0.1:53565] server connect play.google.com:443 (172.217.25.14:443)
+[10:20:39.264][[::1]:53559] server connect play.google.com:443 (172.217.25.14:443)
+[10:20:39.265][[::1]:53563] server connect clientstream.launchdarkly.com:443 (13.248.151.210:443)
+>>>>> [10:20:39.367][[::1]:53559] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for play.google.com, this may indicate that the client does not trust the proxy's certificate.
+[10:20:39.369][[::1]:53559] client disconnect
+[10:20:39.370][[::1]:53559] closing transports...
