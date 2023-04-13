@@ -16,6 +16,37 @@ def configure(self, updated):
         else None,
     )
 
+# !!!!! certificates mocked by mitmproxy is generated in file below 
+# /Users/jiaguo/codespace/OSR/mitmproxy-study/mitmproxy/certs.py
+class CertStore:
+    STORE_CAP = 100
+    certs: dict[TCertId, CertStoreEntry]
+    expire_queue: list[CertStoreEntry]
+    
+    @classmethod
+    def from_store(
+        cls,
+        path: Path | str,
+        basename: str,
+        key_size: int,
+        passphrase: bytes | None = None,
+    ) -> "CertStore":
+        
+    @classmethod
+    def from_files(
+        cls, ca_file: Path, dhparam_file: Path, passphrase: bytes | None = None
+    ) -> "CertStore":
+        raw = ca_file.read_bytes()
+        key = load_pem_private_key(raw, passphrase)
+        dh = cls.load_dhparam(dhparam_file)
+        certs = re.split(rb"(?=-----BEGIN CERTIFICATE-----)", raw)
+        ca = Cert.from_pem(certs[1])
+        if len(certs) > 2:
+            chain_file: Path | None = ca_file
+        else:
+            chain_file = None
+        return cls(key, ca, chain_file, dh)          
+
 # !!!!!! start tls connection client & server 
 def tls_start_client(self, tls_start: tls.TlsData) -> None:
     """Establish TLS or DTLS between client and proxy."""
@@ -140,7 +171,27 @@ class NextLayer(Layer):
 
 # /home/jiaguo/Documents/codespace/Tools/mitmproxy-study/mitmproxy/net/tls.py
 # /home/jiaguo/Documents/codespace/Tools/mitmproxy-study/mitmproxy/tls.py
+# very first ClientHello initative by client 
+class ClientHello:
+    """
+    A TLS ClientHello is the first message sent by the client when initiating TLS.
+    """
+
+    _raw_bytes: bytes
+
+    def __init__(self, raw_client_hello: bytes, dtls: bool = False):
+        """Create a TLS ClientHello object from raw bytes."""
+        self._raw_bytes = raw_client_hello
+        if dtls:
+            self._client_hello = dtls_client_hello.DtlsClientHello(
+                KaitaiStream(io.BytesIO(raw_client_hello))
+            )
+        else:
+            self._client_hello = tls_client_hello.TlsClientHello(
+                KaitaiStream(io.BytesIO(raw_client_hello))
+            )
 
 ### /home/jiaguo/Documents/codespace/Tools/mitmproxy-study/mitmproxy/master.py
 
-
+#/Users/jiaguo/codespace/OSR/mitmproxy-study/mitmproxy/proxy/__init__.py
+#This module contains mitmproxy's core network proxy.
