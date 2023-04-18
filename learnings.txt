@@ -1,0 +1,13 @@
+https://kaitai.io/
+    A new way to develop parsers for binary structures.
+    https://formats.kaitai.io/tls_client_hello/go.html
+    [Example]
+    /Users/jiaguo/codespace/OSR/mitmproxy-study/mitmproxy/contrib/kaitaistruct/tls_client_hello.ksy
+
+How TLS work: client is the one initiate 'hello' to client 
+1) clienthello 
+2) server hello
+https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/
+https://levelup.gitconnected.com/deep-dive-into-tls-handshake-e029e28e2eb3
+https://www.ibm.com/docs/en/ibm-mq/7.5?topic=ssl-overview-tls-handshake
+

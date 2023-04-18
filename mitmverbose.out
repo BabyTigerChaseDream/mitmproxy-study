@@ -15,6 +15,23 @@
 [10:20:38.522][[::1]:53550] client connect
 [10:20:38.535][[::1]:53550] server connect 58.33.200.21:443
 [10:20:38.579][[::1]:53550] Client TLS handshake failed. The client does not trust the proxy's certificate for sha9gwgp.booking.com (OpenSSL Error([('SSL routines', 'ssl3_read_bytes', 'sslv3 alert certificate unknown')]))
+
+[Note]
+error above is in 
+/Users/jiaguo/codespace/OSR/mitmproxy-study/mitmproxy/proxy/layers/tls.py
+def receive_handshake_data(
+    self, data: bytes
+) -> layer.CommandGenerator[tuple[bool, str | None]]:
+....... 
+            elif last_err in [
+            ("SSL routines", "ssl3_read_bytes", "tlsv1 alert unknown ca"),
+            ("SSL routines", "ssl3_read_bytes", "sslv3 alert bad certificate"),
+            ("SSL routines", "", "tlsv1 alert unknown ca"),  # OpenSSL 3+
+            ("SSL routines", "", "sslv3 alert bad certificate"),  # OpenSSL 3+
+        ]:
+......
+
+
 [10:20:38.580][[::1]:53550] client disconnect
 [10:20:38.581][[::1]:53550] closing transports...
 [10:20:38.582][[::1]:53550] server disconnect 58.33.200.21:443
