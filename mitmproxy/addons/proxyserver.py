@@ -208,6 +208,10 @@ class Proxyserver(ServerManager):
         self.is_running = True
 
     def configure(self, updated) -> None:
+        import traceback,inspect,time
+        print("[Jia]",__file__, __name__)
+        print(time.time(),inspect.stack(context=5))
+        print(time.time(),traceback.print_stack())
         if "stream_large_bodies" in updated:
             try:
                 human.parse_size(ctx.options.stream_large_bodies)

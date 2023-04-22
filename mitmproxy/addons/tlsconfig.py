@@ -26,6 +26,11 @@ from mitmproxy.proxy.layers import tls as proxy_tls
 # We manually need to specify this, otherwise OpenSSL may select a non-HTTP2 cipher by default.
 # https://ssl-config.mozilla.org/#config=old
 
+import traceback,inspect,time
+print("[Jia]",__file__, __name__)
+print(time.time(),inspect.stack(context=5))
+print(time.time(),traceback.print_stack())
+
 DEFAULT_CIPHERS = (
     "ECDHE-ECDSA-AES128-GCM-SHA256",
     "ECDHE-RSA-AES128-GCM-SHA256",
@@ -145,6 +150,7 @@ class TlsConfig:
         )
 
     def tls_clienthello(self, tls_clienthello: tls.ClientHelloData):
+        import traceback
         conn_context = tls_clienthello.context
         tls_clienthello.establish_server_tls_first = (
             conn_context.server.tls and ctx.options.connection_strategy == "eager"
@@ -152,6 +158,7 @@ class TlsConfig:
 
     def tls_start_client(self, tls_start: tls.TlsData) -> None:
         """Establish TLS or DTLS between client and proxy."""
+
         if tls_start.ssl_conn is not None:
             return  # a user addon has already provided the pyOpenSSL context.
 

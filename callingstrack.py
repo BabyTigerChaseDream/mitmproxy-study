@@ -195,3 +195,30 @@ class ClientHello:
 
 #/Users/jiaguo/codespace/OSR/mitmproxy-study/mitmproxy/proxy/__init__.py
 #This module contains mitmproxy's core network proxy.
+
+#/Users/jiaguo/codespace/OSR/mitmproxy-study/mitmproxy/addons/browser.py
+# >>> port 8080 
+class Browser:
+    browser: list[subprocess.Popen] = []
+    tdir: list[tempfile.TemporaryDirectory] = []
+    ....
+
+    self.browser.append(
+        subprocess.Popen(
+            [
+                *cmd,
+                "--user-data-dir=%s" % str(tdir.name),
+                "--proxy-server={}:{}".format(
+                    ctx.options.listen_host or "127.0.0.1",
+                    ctx.options.listen_port or "8080",
+                ),
+                "--disable-fre",
+                "--no-default-browser-check",
+                "--no-first-run",
+                "--disable-extensions",
+                "about:blank",
+            ],
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+        )
+    )

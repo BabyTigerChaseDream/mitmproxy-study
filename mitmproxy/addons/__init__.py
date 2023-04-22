@@ -27,8 +27,22 @@ from mitmproxy.addons import stickycookie
 from mitmproxy.addons import tlsconfig
 from mitmproxy.addons import upstream_auth
 
+import logging,inspect
+logger = logging.getLogger(__name__)
+
+def viplog(message: str, level: int = logging.INFO) -> None:
+    logger.log(level, message, extra={"vip logging": "Jia Guo"})
 
 def default_addons():
+    import traceback,inspect,time
+    print("[[[[[[Jia]]]]]]in default_addon() : ",__file__, __name__)
+    print("[[[[[[Jia]]]]]]in default_addon() : ",time.time(),inspect.stack(context=5))
+    print("[[[[[[Jia]]]]]]in default_addon() : ",time.time(),traceback.print_stack())
+    ### below files work right 
+    #f = open('/Users/jiaguo/codespace/OSR/mitmproxy-study/backtrace.log','w')
+    #print(time.time(),inspect.stack(context=5),file=f)
+    #print(time.time(),traceback.print_stack(),file=f)
+    viplog("Hello default_addons viplog \n")
     return [
         core.Core(),
         browser.Browser(),

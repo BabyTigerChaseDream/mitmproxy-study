@@ -19,6 +19,8 @@ from mitmproxy.tools import cmdline
 from mitmproxy.utils import arg_check
 from mitmproxy.utils import debug
 
+import traceback,inspect,time,logging
+print(" ===== Hello Jia Guo main ====== ")
 
 def process_options(parser, opts, args):
     if args.version:
@@ -56,13 +58,13 @@ def run(
     async def main() -> T:
         logging.getLogger().setLevel(logging.DEBUG)
         logging.getLogger("tornado").setLevel(logging.WARNING)
-        logging.getLogger("asyncio").setLevel(logging.WARNING)
+        logging.getLogger("asyncio").setLevel(logging.DEBUG)
+        logging.getLogger("tlsconfig").setLevel(logging.DEBUG)
         logging.getLogger("hpack").setLevel(logging.WARNING)
         logging.getLogger("quic").setLevel(
             logging.WARNING
         )  # aioquic uses a different prefix...
         debug.register_info_dumpers()
-
         opts = options.Options()
         master = master_cls(opts)
 
@@ -123,6 +125,11 @@ def run(
 
         await master.run()
         return master
+
+    import traceback,inspect
+    #print("[[[[[[Jia]]]]]] Self-test",__file__, __name__)
+    logging.info("[[[[[[JiaGuo]]]]]] ",__file__, __name__)
+    logging.info("Self-test successful.")
 
     return asyncio.run(main())
 
