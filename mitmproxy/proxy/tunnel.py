@@ -154,6 +154,10 @@ class TunnelLayer(layer.Layer):
             yield from self._handle_command(command)
 
     def start_handshake(self) -> layer.CommandGenerator[None]:
+        import traceback,inspect
+        print(" === e(o) === ",inspect.currentframe(), __file__, __name__)
+        print("\n\nself.tunnel_connection:",self.tunnel_connection)
+
         yield from self._handle_event(events.DataReceived(self.tunnel_connection, b""))
 
     def receive_handshake_data(

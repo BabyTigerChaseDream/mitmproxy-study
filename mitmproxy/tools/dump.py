@@ -17,6 +17,9 @@ class DumpMaster(master.Master):
         with_dumper=True,
     ) -> None:
         super().__init__(options, event_loop=loop)
+        import traceback,inspect
+        print("[[[[[[Jia]]]]]] ",inspect.currentframe(), __file__, __name__)
+        print("[[[[[[Jia]]]]]] traceback.print_stack() : ", traceback.print_stack())        
         if with_termlog:
             self.addons.add(termlog.TermLog())
         self.addons.add(*addons.default_addons())

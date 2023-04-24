@@ -354,6 +354,11 @@ class ConnectionHandler(metaclass=abc.ABCMeta):
 
     def server_event(self, event: events.Event) -> None:
         self.timeout_watchdog.register_activity()
+        import traceback,inspect
+        print("=== inspect.currentframe === ",inspect.currentframe(), __file__, __name__)
+        print("\n\n===   traceback.print_stack() ===: ", traceback.print_stack())
+
+        print("\n\n event:",event)        
         try:
             layer_commands = self.layer.handle_event(event)
             for command in layer_commands:

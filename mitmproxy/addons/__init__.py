@@ -36,12 +36,8 @@ def viplog(message: str, level: int = logging.INFO) -> None:
 def default_addons():
     import traceback,inspect,time
     print("[[[[[[Jia]]]]]]in default_addon() : ",__file__, __name__)
-    print("[[[[[[Jia]]]]]]in default_addon() : ",time.time(),inspect.stack(context=5))
-    print("[[[[[[Jia]]]]]]in default_addon() : ",time.time(),traceback.print_stack())
-    ### below files work right 
-    #f = open('/Users/jiaguo/codespace/OSR/mitmproxy-study/backtrace.log','w')
-    #print(time.time(),inspect.stack(context=5),file=f)
-    #print(time.time(),traceback.print_stack(),file=f)
+    print("[[[[[[Jia]]]]]] traceback.print_stack() : ", traceback.print_stack())
+
     viplog("Hello default_addons viplog \n")
     return [
         core.Core(),

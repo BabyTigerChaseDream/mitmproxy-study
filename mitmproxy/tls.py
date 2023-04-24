@@ -20,10 +20,10 @@ class ClientHello:
 
     def __init__(self, raw_client_hello: bytes, dtls: bool = False):
         """Create a TLS ClientHello object from raw bytes."""
-        import traceback,inspect,time
-        print("[Jia]",__file__, __name__)
-        print(time.time(),inspect.stack(context=5))
-        print(time.time(),traceback.print_stack())
+
+        import traceback,inspect
+        print("[[[[[[Jia]]]]]] ",inspect.currentframe(), __file__, __name__)
+        print("[[[[[[Jia]]]]]] traceback.print_stack() : ", traceback.print_stack())
 
         self._raw_bytes = raw_client_hello
         if dtls:

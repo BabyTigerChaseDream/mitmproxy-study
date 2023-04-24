@@ -120,11 +120,18 @@ class Connection(serializable.SerializableDataclass, metaclass=ABCMeta):
     @property
     def connected(self) -> bool:
         """*Read-only:* `True` if Connection.state is ConnectionState.OPEN, `False` otherwise."""
+        import traceback,inspect
+        print("[[[[[[Jia]]]]]] ",inspect.currentframe(), __file__, __name__)
+        print("[[[[[[Jia]]]]]] traceback.print_stack() : ", traceback.print_stack())
+
         return self.state is ConnectionState.OPEN
 
     @property
     def tls_established(self) -> bool:
         """*Read-only:* `True` if TLS has been established, `False` otherwise."""
+        import traceback,inspect
+        print("[[[[[[Jia]]]]]] ",inspect.currentframe(), __file__, __name__)
+        print("[[[[[[Jia]]]]]] traceback.print_stack() : ", traceback.print_stack())        
         return self.timestamp_tls_setup is not None
 
     def __eq__(self, other):
@@ -214,6 +221,9 @@ class Client(Connection):
             stacklevel=2,
         )
         self.peername = x
+        import traceback,inspect
+        print("[[[[[[Jia]]]]]] ",inspect.currentframe(), __file__, __name__)
+        print("[[[[[[Jia]]]]]] traceback.print_stack() : ", traceback.print_stack())
 
     @property
     def cipher_name(self) -> str | None:  # pragma: no cover

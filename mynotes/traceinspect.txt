@@ -1,0 +1,301 @@
+(venv) jiaguo@ub2204:~/codespace/Tools/net/mitmproxy-study/release/dist$ ./mitmdump -vvv
+
+##############################################################################
+##########################    main func ################################
+##############################################################################
+
+ ===== Hello Jia Guo main ====== 
+[Jia] /tmp/_MEIWfUhOE/mitmproxy/addons/tlsconfig.pyc mitmproxy.addons.tlsconfig
+1682133324.9738743 
+
+[
+    FrameInfo(frame=<frame at 0x15aa940, file 'mitmproxy/addons/tlsconfig.py', line 31, code <module>>, 
+    filename='/tmp/_MEIWfUhOE/mitmproxy/addons/tlsconfig.pyc', lineno=31, function='<module>', code_context=None, index=None), 
+    
+    FrameInfo(frame=<frame at 0x7f027c8caae0, file 'PyInstaller/loader/pyimod02_importers.py', line 352, code exec_module>, filename='/tmp/_MEIWfUhOE/PyInstaller/loader/pyimod02_importers.pyc', lineno=352, function='exec_module', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027b29d240, file '<frozen importlib._bootstrap>', line 688, code _load_unlocked>, filename='<frozen importlib._bootstrap>', lineno=688, function='_load_unlocked', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027b8a4e40, file '<frozen importlib._bootstrap>', line 1006, code _find_and_load_unlocked>, filename='<frozen importlib._bootstrap>', lineno=1006, function='_find_and_load_unlocked', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027b8a5a40, file '<frozen importlib._bootstrap>', line 1027, code _find_and_load>, filename='<frozen importlib._bootstrap>', lineno=1027, function='_find_and_load', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x15e3400, file '<frozen importlib._bootstrap>', line 241, code _call_with_frames_removed>, filename='<frozen importlib._bootstrap>', lineno=241, function='_call_with_frames_removed', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x188dd90, file '<frozen importlib._bootstrap>', line 1078, code _handle_fromlist>, filename='<frozen importlib._bootstrap>', lineno=1078, function='_handle_fromlist', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027c8c91b0, file 'mitmproxy/addons/__init__.py', line 27, code <module>>, filename='/tmp/_MEIWfUhOE/mitmproxy/addons/__init__.pyc', lineno=27, function='<module>', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027c1b5240, file 'PyInstaller/loader/pyimod02_importers.py', line 352, code exec_module>, filename='/tmp/_MEIWfUhOE/PyInstaller/loader/pyimod02_importers.pyc', lineno=352, function='exec_module', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027c95a840, file '<frozen importlib._bootstrap>', line 688, code _load_unlocked>, filename='<frozen importlib._bootstrap>', lineno=688, function='_load_unlocked', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027e2ca240, file '<frozen importlib._bootstrap>', line 1006, code _find_and_load_unlocked>, filename='<frozen importlib._bootstrap>', lineno=1006, function='_find_and_load_unlocked', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x1548340, file '<frozen importlib._bootstrap>', line 1027, code _find_and_load>, filename='<frozen importlib._bootstrap>', lineno=1027, function='_find_and_load', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027e475480, file '<frozen importlib._bootstrap>', line 241, code _call_with_frames_removed>, filename='<frozen importlib._bootstrap>', lineno=241, function='_call_with_frames_removed', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x123f830, file '<frozen importlib._bootstrap>', line 1078, code _handle_fromlist>, filename='<frozen importlib._bootstrap>', lineno=1078, function='_handle_fromlist', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027e5dee40, file 'mitmproxy/tools/dump.py', line 1, code <module>>, filename='/tmp/_MEIWfUhOE/mitmproxy/tools/dump.pyc', lineno=1, function='<module>', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027c959040, file 'PyInstaller/loader/pyimod02_importers.py', line 352, code exec_module>, filename='/tmp/_MEIWfUhOE/PyInstaller/loader/pyimod02_importers.pyc', lineno=352, function='exec_module', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027e365780, file '<frozen importlib._bootstrap>', line 688, code _load_unlocked>, filename='<frozen importlib._bootstrap>', lineno=688, function='_load_unlocked', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027c95aa40, file '<frozen importlib._bootstrap>', line 1006, code _find_and_load_unlocked>, filename='<frozen importlib._bootstrap>', lineno=1006, function='_find_and_load_unlocked', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027e5dfa40, file '<frozen importlib._bootstrap>', line 1027, code _find_and_load>, filename='<frozen importlib._bootstrap>', lineno=1027, function='_find_and_load', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027cf9a050, file '<frozen importlib._bootstrap>', line 241, code _call_with_frames_removed>, filename='<frozen importlib._bootstrap>', lineno=241, function='_call_with_frames_removed', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x1379c30, file '<frozen importlib._bootstrap>', line 1078, code _handle_fromlist>, filename='<frozen importlib._bootstrap>', lineno=1078, function='_handle_fromlist', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027e4fda80, file 'mitmproxy/tools/main.py', line 145, code mitmdump>, filename='/tmp/_MEIWfUhOE/mitmproxy/tools/main.pyc', lineno=145, function='mitmdump', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027f4db2a0, file 'mitmdump', line 3, code <module>>, filename='mitmdump', lineno=3, function='<module>', code_context=None, index=None)]
+
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 145, in mitmdump
+  File "<frozen importlib._bootstrap>", line 1078, in _handle_fromlist
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "PyInstaller/loader/pyimod02_importers.py", line 352, in exec_module
+  File "mitmproxy/tools/dump.py", line 1, in <module>
+  File "<frozen importlib._bootstrap>", line 1078, in _handle_fromlist
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "PyInstaller/loader/pyimod02_importers.py", line 352, in exec_module
+  File "mitmproxy/addons/__init__.py", line 27, in <module>
+  File "<frozen importlib._bootstrap>", line 1078, in _handle_fromlist
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "PyInstaller/loader/pyimod02_importers.py", line 352, in exec_module
+  File "mitmproxy/addons/tlsconfig.py", line 32, in <module>
+1682133325.030535 None
+[[[[[[Jia]]]]]]in default_addon() :  /tmp/_MEIWfUhOE/mitmproxy/addons/__init__.pyc mitmproxy.addons
+[[[[[[Jia]]]]]]in default_addon() :  1682133325.0816262 
+
+[
+    FrameInfo(frame=<frame at 0x190cc30, file 'mitmproxy/addons/__init__.py', line 39, code default_addons>, filename='/tmp/_MEIWfUhOE/mitmproxy/addons/__init__.pyc', lineno=39, function='default_addons', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027acf9120, file 'mitmproxy/tools/dump.py', line 22, code __init__>, filename='/tmp/_MEIWfUhOE/mitmproxy/tools/dump.pyc', lineno=22, function='__init__', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x15e3400, file 'mitmproxy/tools/main.py', line 69, code main>, filename='/tmp/_MEIWfUhOE/mitmproxy/tools/main.pyc', lineno=69, function='main', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027e365780, file 'asyncio/events.py', line 80, code _run>, filename='/tmp/_MEIWfUhOE/asyncio/events.pyc', lineno=80, function='_run', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x194fde0, file 'asyncio/base_events.py', line 1896, code _run_once>, filename='/tmp/_MEIWfUhOE/asyncio/base_events.pyc', lineno=1896, function='_run_once', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027af5f130, file 'asyncio/base_events.py', line 600, code run_forever>, filename='/tmp/_MEIWfUhOE/asyncio/base_events.pyc', lineno=600, function='run_forever', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027b093e20, file 'asyncio/base_events.py', line 633, code run_until_complete>, filename='/tmp/_MEIWfUhOE/asyncio/base_events.pyc', lineno=633, function='run_until_complete', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x193b860, file 'asyncio/runners.py', line 44, code run>, filename='/tmp/_MEIWfUhOE/asyncio/runners.pyc', lineno=44, function='run', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x1379c30, file 'mitmproxy/tools/main.py', line 134, code run>, filename='/tmp/_MEIWfUhOE/mitmproxy/tools/main.pyc', lineno=134, function='run', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027e4fda80, file 'mitmproxy/tools/main.py', line 157, code mitmdump>, filename='/tmp/_MEIWfUhOE/mitmproxy/tools/main.pyc', lineno=157, function='mitmdump', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027f4db2a0, file 'mitmdump', line 3, code <module>>, filename='mitmdump', lineno=3, function='<module>', code_context=None, index=None)]
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 157, in mitmdump
+  File "mitmproxy/tools/main.py", line 134, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/tools/main.py", line 69, in main
+  File "mitmproxy/tools/dump.py", line 22, in __init__
+  File "mitmproxy/addons/__init__.py", line 40, in default_addons
+[[[[[[Jia]]]]]]in default_addon() :  1682133325.0924015 None
+INFO:mitmproxy.addons:Hello default_addons viplog 
+
+[11:15:25.092] Hello default_addons viplog 
+
+[Jia] /tmp/_MEIWfUhOE/mitmproxy/addons/proxyserver.pyc mitmproxy.addons.proxyserver
+1682133325.100432 [
+    FrameInfo(frame=<frame at 0x1956a30, file 'mitmproxy/addons/proxyserver.py', line 213, code configure>, filename='/tmp/_MEIWfUhOE/mitmproxy/addons/proxyserver.pyc', lineno=213, function='configure', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027acf8d60, file 'mitmproxy/addonmanager.py', line 279, code invoke_addon_sync>, filename='/tmp/_MEIWfUhOE/mitmproxy/addonmanager.pyc', lineno=279, function='invoke_addon_sync', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027acf98a0, file 'mitmproxy/addonmanager.py', line 302, code trigger>, filename='/tmp/_MEIWfUhOE/mitmproxy/addonmanager.pyc', lineno=302, function='trigger', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027ad04700, file 'mitmproxy/addonmanager.py', line 135, code _configure_all>, filename='/tmp/_MEIWfUhOE/mitmproxy/addonmanager.pyc', lineno=135, function='_configure_all', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027af5df10, file 'mitmproxy/utils/signals.py', line 61, code notify>, filename='/tmp/_MEIWfUhOE/mitmproxy/utils/signals.pyc', lineno=61, function='notify', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027b3a7680, file 'mitmproxy/utils/signals.py', line 77, code send>, filename='/tmp/_MEIWfUhOE/mitmproxy/utils/signals.pyc', lineno=77, function='send', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027acf8b80, file 'mitmproxy/optmanager.py', line 131, code add_option>, filename='/tmp/_MEIWfUhOE/mitmproxy/optmanager.pyc', lineno=131, function='add_option', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027ad18610, file 'mitmproxy/addonmanager.py', line 95, code add_option>, filename='/tmp/_MEIWfUhOE/mitmproxy/addonmanager.pyc', lineno=95, function='add_option', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027acfc210, file 'mitmproxy/addons/script.py', line 166, code load>, filename='/tmp/_MEIWfUhOE/mitmproxy/addons/script.pyc', lineno=166, function='load', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x1951370, file 'mitmproxy/addonmanager.py', line 279, code invoke_addon_sync>, filename='/tmp/_MEIWfUhOE/mitmproxy/addonmanager.pyc', lineno=279, function='invoke_addon_sync', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x1955f00, file 'mitmproxy/addonmanager.py', line 185, code register>, filename='/tmp/_MEIWfUhOE/mitmproxy/addonmanager.pyc', lineno=185, function='register', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027af4f140, file 'mitmproxy/addonmanager.py', line 200, code add>, filename='/tmp/_MEIWfUhOE/mitmproxy/addonmanager.pyc', lineno=200, function='add', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027acf9120, file 'mitmproxy/tools/dump.py', line 22, code __init__>, filename='/tmp/_MEIWfUhOE/mitmproxy/tools/dump.pyc', lineno=22, function='__init__', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x15e3400, file 'mitmproxy/tools/main.py', line 69, code main>, filename='/tmp/_MEIWfUhOE/mitmproxy/tools/main.pyc', lineno=69, function='main', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027e365780, file 'asyncio/events.py', line 80, code _run>, filename='/tmp/_MEIWfUhOE/asyncio/events.pyc', lineno=80, function='_run', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x194fde0, file 'asyncio/base_events.py', line 1896, code _run_once>, filename='/tmp/_MEIWfUhOE/asyncio/base_events.pyc', lineno=1896, function='_run_once', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027af5f130, file 'asyncio/base_events.py', line 600, code run_forever>, filename='/tmp/_MEIWfUhOE/asyncio/base_events.pyc', lineno=600, function='run_forever', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027b093e20, file 'asyncio/base_events.py', line 633, code run_until_complete>, filename='/tmp/_MEIWfUhOE/asyncio/base_events.pyc', lineno=633, function='run_until_complete', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x193b860, file 'asyncio/runners.py', line 44, code run>, filename='/tmp/_MEIWfUhOE/asyncio/runners.pyc', lineno=44, function='run', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x1379c30, file 'mitmproxy/tools/main.py', line 134, code run>, filename='/tmp/_MEIWfUhOE/mitmproxy/tools/main.pyc', lineno=134, function='run', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027e4fda80, file 'mitmproxy/tools/main.py', line 157, code mitmdump>, filename='/tmp/_MEIWfUhOE/mitmproxy/tools/main.pyc', lineno=157, function='mitmdump', code_context=None, index=None), 
+    FrameInfo(frame=<frame at 0x7f027f4db2a0, file 'mitmdump', line 3, code <module>>, filename='mitmdump', lineno=3, function='<module>', code_context=None, index=None)]
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 157, in mitmdump
+  File "mitmproxy/tools/main.py", line 134, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/tools/main.py", line 69, in main
+  File "mitmproxy/tools/dump.py", line 22, in __init__
+  File "mitmproxy/addonmanager.py", line 200, in add
+  File "mitmproxy/addonmanager.py", line 185, in register
+  File "mitmproxy/addonmanager.py", line 279, in invoke_addon_sync
+  File "mitmproxy/addons/script.py", line 166, in load
+  File "mitmproxy/addonmanager.py", line 95, in add_option
+  File "mitmproxy/optmanager.py", line 131, in add_option
+  File "mitmproxy/utils/signals.py", line 77, in send
+  File "mitmproxy/utils/signals.py", line 61, in notify
+  File "mitmproxy/addonmanager.py", line 135, in _configure_all
+  File "mitmproxy/addonmanager.py", line 302, in trigger
+  File "mitmproxy/addonmanager.py", line 279, in invoke_addon_sync
+  File "mitmproxy/addons/proxyserver.py", line 214, in configure
+1682133325.103287 None
+
+
+##############################################################################
+##########################    TLS handshake   ################################
+##############################################################################
+DEBUG:mitmproxy.proxy.server:transports closed!
+[11:19:29.643][127.0.0.1:42298] transports closed!
+INFO:mitmproxy.proxy.server:client connect
+[11:19:31.785][127.0.0.1:42306] client connect
+INFO:mitmproxy.proxy.server:server connect www.wireshark.org:443 (104.26.11.240:443)
+[11:19:32.257][127.0.0.1:42306] server connect www.wireshark.org:443 (104.26.11.240:443)
+[Jia] /tmp/_MEIWfUhOE/mitmproxy/tls.pyc mitmproxy.tls
+1682133572.274453 [FrameInfo(frame=<frame at 0x7f027ad558a0, file 'mitmproxy/tls.py', line 25, code __init__>, filename='/tmp/_MEIWfUhOE/mitmproxy/tls.pyc', lineno=25, function='__init__', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad2f880, file 'mitmproxy/proxy/layers/tls.py', line 86, code parse_client_hello>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layers/tls.pyc', lineno=86, function='parse_client_hello', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad6d840, file 'mitmproxy/proxy/layers/tls.py', line 547, code receive_handshake_data>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layers/tls.pyc', lineno=547, function='receive_handshake_data', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad7db40, file 'mitmproxy/proxy/tunnel.py', line 70, code _handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/tunnel.pyc', lineno=70, function='_handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ada4be0, file 'mitmproxy/proxy/layer.py', line 152, code handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=152, function='handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad7e050, file 'mitmproxy/proxy/tunnel.py', line 153, code event_to_child>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/tunnel.pyc', lineno=153, function='event_to_child', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad791c0, file 'mitmproxy/proxy/layers/tls.py', line 473, code event_to_child>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layers/tls.pyc', lineno=473, function='event_to_child', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad7dea0, file 'mitmproxy/proxy/tunnel.py', line 98, code _handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/tunnel.pyc', lineno=98, function='_handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ada4dd0, file 'mitmproxy/proxy/layer.py', line 152, code handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=152, function='handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad2dc60, file 'mitmproxy/proxy/layer.py', line 298, code _ask>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=298, function='_ask', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027acff870, file 'mitmproxy/proxy/layer.py', line 284, code _handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=284, function='_handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x198fb20, file 'mitmproxy/proxy/layer.py', line 191, code __process>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=191, function='__process', code_context=None, index=None), FrameInfo(frame=<frame at 0x199e5f0, file 'mitmproxy/proxy/layer.py', line 228, code __continue>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=228, function='__continue', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ada49f0, file 'mitmproxy/proxy/layer.py', line 137, code handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=137, function='handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad7d630, file 'mitmproxy/proxy/layer.py', line 267, code handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=267, function='handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad79000, file 'mitmproxy/proxy/layers/http/__init__.py', line 775, code passthrough>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layers/http/__init__.pyc', lineno=775, function='passthrough', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ada4610, file 'mitmproxy/proxy/layer.py', line 152, code handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=152, function='handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ada4420, file 'mitmproxy/proxy/layers/http/__init__.py', line 935, code event_to_child>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layers/http/__init__.pyc', lineno=935, function='event_to_child', code_context=None, index=None), FrameInfo(frame=<frame at 0x1962140, file 'mitmproxy/proxy/layers/http/__init__.py', line 879, code _handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layers/http/__init__.pyc', lineno=879, function='_handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad81780, file 'mitmproxy/proxy/layer.py', line 152, code handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=152, function='handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad7d7e0, file 'mitmproxy/proxy/layer.py', line 265, code handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=265, function='handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ada4800, file 'mitmproxy/proxy/layer.py', line 152, code handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=152, function='handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027af93640, file 'mitmproxy/proxy/server.py', line 359, code server_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/server.pyc', lineno=359, function='server_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad67490, file 'mitmproxy/proxy/server.py', line 346, code hook_task>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/server.pyc', lineno=346, function='hook_task', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027e365780, file 'asyncio/events.py', line 80, code _run>, filename='/tmp/_MEIWfUhOE/asyncio/events.pyc', lineno=80, function='_run', code_context=None, index=None), FrameInfo(frame=<frame at 0x194fde0, file 'asyncio/base_events.py', line 1896, code _run_once>, filename='/tmp/_MEIWfUhOE/asyncio/base_events.pyc', lineno=1896, function='_run_once', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027af5f130, file 'asyncio/base_events.py', line 600, code run_forever>, filename='/tmp/_MEIWfUhOE/asyncio/base_events.pyc', lineno=600, function='run_forever', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027b093e20, file 'asyncio/base_events.py', line 633, code run_until_complete>, filename='/tmp/_MEIWfUhOE/asyncio/base_events.pyc', lineno=633, function='run_until_complete', code_context=None, index=None), FrameInfo(frame=<frame at 0x193b860, file 'asyncio/runners.py', line 44, code run>, filename='/tmp/_MEIWfUhOE/asyncio/runners.pyc', lineno=44, function='run', code_context=None, index=None), FrameInfo(frame=<frame at 0x1379c30, file 'mitmproxy/tools/main.py', line 134, code run>, filename='/tmp/_MEIWfUhOE/mitmproxy/tools/main.pyc', lineno=134, function='run', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027e4fda80, file 'mitmproxy/tools/main.py', line 157, code mitmdump>, filename='/tmp/_MEIWfUhOE/mitmproxy/tools/main.pyc', lineno=157, function='mitmdump', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027f4db2a0, file 'mitmdump', line 3, code <module>>, filename='mitmdump', lineno=3, function='<module>', code_context=None, index=None)]
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 157, in mitmdump
+  File "mitmproxy/tools/main.py", line 134, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 346, in hook_task
+  File "mitmproxy/proxy/server.py", line 359, in server_event
+  File "mitmproxy/proxy/layer.py", line 152, in handle_event
+  File "mitmproxy/proxy/layer.py", line 265, in handle_event
+  File "mitmproxy/proxy/layer.py", line 152, in handle_event
+  File "mitmproxy/proxy/layers/http/__init__.py", line 879, in _handle_event
+  File "mitmproxy/proxy/layers/http/__init__.py", line 935, in event_to_child
+  File "mitmproxy/proxy/layer.py", line 152, in handle_event
+  File "mitmproxy/proxy/layers/http/__init__.py", line 775, in passthrough
+  File "mitmproxy/proxy/layer.py", line 267, in handle_event
+  File "mitmproxy/proxy/layer.py", line 137, in handle_event
+  File "mitmproxy/proxy/layer.py", line 228, in __continue
+  File "mitmproxy/proxy/layer.py", line 191, in __process
+  File "mitmproxy/proxy/layer.py", line 284, in _handle_event
+  File "mitmproxy/proxy/layer.py", line 298, in _ask
+  File "mitmproxy/proxy/layer.py", line 152, in handle_event
+  File "mitmproxy/proxy/tunnel.py", line 98, in _handle_event
+  File "mitmproxy/proxy/layers/tls.py", line 473, in event_to_child
+  File "mitmproxy/proxy/tunnel.py", line 153, in event_to_child
+  File "mitmproxy/proxy/layer.py", line 152, in handle_event
+  File "mitmproxy/proxy/tunnel.py", line 70, in _handle_event
+  File "mitmproxy/proxy/layers/tls.py", line 547, in receive_handshake_data
+  File "mitmproxy/proxy/layers/tls.py", line 86, in parse_client_hello
+  File "mitmproxy/tls.py", line 26, in __init__
+1682133572.2959402 None
+WARNING:mitmproxy.proxy.server:Client TLS handshake failed. The client does not trust the proxy's certificate for www.wireshark.org (sslv3 alert bad certificate)
+[11:19:32.929][127.0.0.1:42306] Client TLS handshake failed. The client does not trust the proxy's certificate for www.wireshark.org (sslv3 alert bad certificate)
+INFO:mitmproxy.proxy.server:client disconnect
+[11:19:32.933][127.0.0.1:42306] client disconnect
+DEBUG:mitmproxy.proxy.server:closing transports...
+[11:19:32.935][127.0.0.1:42306] closing transports...
+INFO:mitmproxy.proxy.server:server disconnect www.wireshark.org:443 (104.26.11.240:443)
+[11:19:32.938][127.0.0.1:42306] server disconnect www.wireshark.org:443 (104.26.11.240:443)
+DEBUG:mitmproxy.proxy.server:transports closed!
+[11:19:32.941][127.0.0.1:42306] transports closed!
+INFO:mitmproxy.proxy.server:client connect
+[11:19:32.964][127.0.0.1:42318] client connect
+INFO:mitmproxy.proxy.server:client connect
+[11:19:32.984][127.0.0.1:42332] client connect
+INFO:mitmproxy.proxy.server:client connect
+[11:19:32.987][127.0.0.1:42334] client connect
+INFO:mitmproxy.proxy.server:server connect detectportal.firefox.com:80 (34.107.221.82:80)
+[11:19:33.044][127.0.0.1:42332] server connect detectportal.firefox.com:80 (34.107.221.82:80)
+INFO:mitmproxy.proxy.server:server connect incoming.telemetry.mozilla.org:443 (34.120.208.123:443)
+[11:19:33.046][127.0.0.1:42334] server connect incoming.telemetry.mozilla.org:443 (34.120.208.123:443)
+INFO:mitmproxy.proxy.server:server connect incoming.telemetry.mozilla.org:443 (34.120.208.123:443)
+[11:19:33.049][127.0.0.1:42318] server connect incoming.telemetry.mozilla.org:443 (34.120.208.123:443)
+[Jia] /tmp/_MEIWfUhOE/mitmproxy/tls.pyc mitmproxy.tls
+1682133573.056935 [FrameInfo(frame=<frame at 0x7f027ad558a0, file 'mitmproxy/tls.py', line 25, code __init__>, filename='/tmp/_MEIWfUhOE/mitmproxy/tls.pyc', lineno=25, function='__init__', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad2f880, file 'mitmproxy/proxy/layers/tls.py', line 86, code parse_client_hello>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layers/tls.pyc', lineno=86, function='parse_client_hello', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad6d840, file 'mitmproxy/proxy/layers/tls.py', line 547, code receive_handshake_data>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layers/tls.pyc', lineno=547, function='receive_handshake_data', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad7dea0, file 'mitmproxy/proxy/tunnel.py', line 70, code _handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/tunnel.pyc', lineno=70, function='_handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad60fc0, file 'mitmproxy/proxy/layer.py', line 152, code handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=152, function='handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027adbac20, file 'mitmproxy/proxy/tunnel.py', line 153, code event_to_child>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/tunnel.pyc', lineno=153, function='event_to_child', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad791c0, file 'mitmproxy/proxy/layers/tls.py', line 473, code event_to_child>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layers/tls.pyc', lineno=473, function='event_to_child', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad7db40, file 'mitmproxy/proxy/tunnel.py', line 98, code _handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/tunnel.pyc', lineno=98, function='_handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad83870, file 'mitmproxy/proxy/layer.py', line 152, code handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=152, function='handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad2dc60, file 'mitmproxy/proxy/layer.py', line 298, code _ask>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=298, function='_ask', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027acff870, file 'mitmproxy/proxy/layer.py', line 284, code _handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=284, function='_handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad56980, file 'mitmproxy/proxy/layer.py', line 191, code __process>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=191, function='__process', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad7ba00, file 'mitmproxy/proxy/layer.py', line 228, code __continue>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=228, function='__continue', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ada7680, file 'mitmproxy/proxy/layer.py', line 137, code handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=137, function='handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ada70b0, file 'mitmproxy/proxy/layer.py', line 267, code handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=267, function='handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad79000, file 'mitmproxy/proxy/layers/http/__init__.py', line 775, code passthrough>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layers/http/__init__.pyc', lineno=775, function='passthrough', code_context=None, index=None), FrameInfo(frame=<frame at 0x1abb750, file 'mitmproxy/proxy/layer.py', line 152, code handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=152, function='handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x1997410, file 'mitmproxy/proxy/layers/http/__init__.py', line 935, code event_to_child>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layers/http/__init__.pyc', lineno=935, function='event_to_child', code_context=None, index=None), FrameInfo(frame=<frame at 0x1962140, file 'mitmproxy/proxy/layers/http/__init__.py', line 879, code _handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layers/http/__init__.pyc', lineno=879, function='_handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ada7a60, file 'mitmproxy/proxy/layer.py', line 152, code handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=152, function='handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad7d630, file 'mitmproxy/proxy/layer.py', line 265, code handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=265, function='handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ada7490, file 'mitmproxy/proxy/layer.py', line 152, code handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=152, function='handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027af93640, file 'mitmproxy/proxy/server.py', line 359, code server_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/server.pyc', lineno=359, function='server_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad7e3b0, file 'mitmproxy/proxy/server.py', line 346, code hook_task>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/server.pyc', lineno=346, function='hook_task', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027e365780, file 'asyncio/events.py', line 80, code _run>, filename='/tmp/_MEIWfUhOE/asyncio/events.pyc', lineno=80, function='_run', code_context=None, index=None), FrameInfo(frame=<frame at 0x194fde0, file 'asyncio/base_events.py', line 1896, code _run_once>, filename='/tmp/_MEIWfUhOE/asyncio/base_events.pyc', lineno=1896, function='_run_once', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027af5f130, file 'asyncio/base_events.py', line 600, code run_forever>, filename='/tmp/_MEIWfUhOE/asyncio/base_events.pyc', lineno=600, function='run_forever', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027b093e20, file 'asyncio/base_events.py', line 633, code run_until_complete>, filename='/tmp/_MEIWfUhOE/asyncio/base_events.pyc', lineno=633, function='run_until_complete', code_context=None, index=None), FrameInfo(frame=<frame at 0x193b860, file 'asyncio/runners.py', line 44, code run>, filename='/tmp/_MEIWfUhOE/asyncio/runners.pyc', lineno=44, function='run', code_context=None, index=None), FrameInfo(frame=<frame at 0x1379c30, file 'mitmproxy/tools/main.py', line 134, code run>, filename='/tmp/_MEIWfUhOE/mitmproxy/tools/main.pyc', lineno=134, function='run', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027e4fda80, file 'mitmproxy/tools/main.py', line 157, code mitmdump>, filename='/tmp/_MEIWfUhOE/mitmproxy/tools/main.pyc', lineno=157, function='mitmdump', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027f4db2a0, file 'mitmdump', line 3, code <module>>, filename='mitmdump', lineno=3, function='<module>', code_context=None, index=None)]
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 157, in mitmdump
+  File "mitmproxy/tools/main.py", line 134, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 346, in hook_task
+  File "mitmproxy/proxy/server.py", line 359, in server_event
+  File "mitmproxy/proxy/layer.py", line 152, in handle_event
+  File "mitmproxy/proxy/layer.py", line 265, in handle_event
+  File "mitmproxy/proxy/layer.py", line 152, in handle_event
+  File "mitmproxy/proxy/layers/http/__init__.py", line 879, in _handle_event
+  File "mitmproxy/proxy/layers/http/__init__.py", line 935, in event_to_child
+  File "mitmproxy/proxy/layer.py", line 152, in handle_event
+  File "mitmproxy/proxy/layers/http/__init__.py", line 775, in passthrough
+  File "mitmproxy/proxy/layer.py", line 267, in handle_event
+  File "mitmproxy/proxy/layer.py", line 137, in handle_event
+  File "mitmproxy/proxy/layer.py", line 228, in __continue
+  File "mitmproxy/proxy/layer.py", line 191, in __process
+  File "mitmproxy/proxy/layer.py", line 284, in _handle_event
+  File "mitmproxy/proxy/layer.py", line 298, in _ask
+  File "mitmproxy/proxy/layer.py", line 152, in handle_event
+  File "mitmproxy/proxy/tunnel.py", line 98, in _handle_event
+  File "mitmproxy/proxy/layers/tls.py", line 473, in event_to_child
+  File "mitmproxy/proxy/tunnel.py", line 153, in event_to_child
+  File "mitmproxy/proxy/layer.py", line 152, in handle_event
+  File "mitmproxy/proxy/tunnel.py", line 70, in _handle_event
+  File "mitmproxy/proxy/layers/tls.py", line 547, in receive_handshake_data
+  File "mitmproxy/proxy/layers/tls.py", line 86, in parse_client_hello
+  File "mitmproxy/tls.py", line 26, in __init__
+1682133573.0701573 None
+[Jia] /tmp/_MEIWfUhOE/mitmproxy/tls.pyc mitmproxy.tls
+1682133573.0803864 [FrameInfo(frame=<frame at 0x7f027ad558a0, file 'mitmproxy/tls.py', line 25, code __init__>, filename='/tmp/_MEIWfUhOE/mitmproxy/tls.pyc', lineno=25, function='__init__', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad2f880, file 'mitmproxy/proxy/layers/tls.py', line 86, code parse_client_hello>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layers/tls.pyc', lineno=86, function='parse_client_hello', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad6f640, file 'mitmproxy/proxy/layers/tls.py', line 547, code receive_handshake_data>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layers/tls.pyc', lineno=547, function='receive_handshake_data', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad7db40, file 'mitmproxy/proxy/tunnel.py', line 70, code _handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/tunnel.pyc', lineno=70, function='_handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x1997410, file 'mitmproxy/proxy/layer.py', line 152, code handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=152, function='handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad7d630, file 'mitmproxy/proxy/tunnel.py', line 153, code event_to_child>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/tunnel.pyc', lineno=153, function='event_to_child', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad791c0, file 'mitmproxy/proxy/layers/tls.py', line 473, code event_to_child>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layers/tls.pyc', lineno=473, function='event_to_child', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ada7680, file 'mitmproxy/proxy/tunnel.py', line 98, code _handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/tunnel.pyc', lineno=98, function='_handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ada6ec0, file 'mitmproxy/proxy/layer.py', line 152, code handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=152, function='handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad2dc60, file 'mitmproxy/proxy/layer.py', line 298, code _ask>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=298, function='_ask', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027acff870, file 'mitmproxy/proxy/layer.py', line 284, code _handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=284, function='_handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad56980, file 'mitmproxy/proxy/layer.py', line 191, code __process>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=191, function='__process', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad7ba00, file 'mitmproxy/proxy/layer.py', line 228, code __continue>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=228, function='__continue', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad60fc0, file 'mitmproxy/proxy/layer.py', line 137, code handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=137, function='handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ada70b0, file 'mitmproxy/proxy/layer.py', line 267, code handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=267, function='handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad79000, file 'mitmproxy/proxy/layers/http/__init__.py', line 775, code passthrough>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layers/http/__init__.pyc', lineno=775, function='passthrough', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ada7490, file 'mitmproxy/proxy/layer.py', line 152, code handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=152, function='handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ada6cd0, file 'mitmproxy/proxy/layers/http/__init__.py', line 935, code event_to_child>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layers/http/__init__.pyc', lineno=935, function='event_to_child', code_context=None, index=None), FrameInfo(frame=<frame at 0x1962140, file 'mitmproxy/proxy/layers/http/__init__.py', line 879, code _handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layers/http/__init__.pyc', lineno=879, function='_handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ada7a60, file 'mitmproxy/proxy/layer.py', line 152, code handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=152, function='handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad83870, file 'mitmproxy/proxy/layer.py', line 265, code handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=265, function='handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x1abb750, file 'mitmproxy/proxy/layer.py', line 152, code handle_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/layer.pyc', lineno=152, function='handle_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027af93640, file 'mitmproxy/proxy/server.py', line 359, code server_event>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/server.pyc', lineno=359, function='server_event', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027ad7e050, file 'mitmproxy/proxy/server.py', line 346, code hook_task>, filename='/tmp/_MEIWfUhOE/mitmproxy/proxy/server.pyc', lineno=346, function='hook_task', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027e365780, file 'asyncio/events.py', line 80, code _run>, filename='/tmp/_MEIWfUhOE/asyncio/events.pyc', lineno=80, function='_run', code_context=None, index=None), FrameInfo(frame=<frame at 0x194fde0, file 'asyncio/base_events.py', line 1896, code _run_once>, filename='/tmp/_MEIWfUhOE/asyncio/base_events.pyc', lineno=1896, function='_run_once', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027af5f130, file 'asyncio/base_events.py', line 600, code run_forever>, filename='/tmp/_MEIWfUhOE/asyncio/base_events.pyc', lineno=600, function='run_forever', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027b093e20, file 'asyncio/base_events.py', line 633, code run_until_complete>, filename='/tmp/_MEIWfUhOE/asyncio/base_events.pyc', lineno=633, function='run_until_complete', code_context=None, index=None), FrameInfo(frame=<frame at 0x193b860, file 'asyncio/runners.py', line 44, code run>, filename='/tmp/_MEIWfUhOE/asyncio/runners.pyc', lineno=44, function='run', code_context=None, index=None), FrameInfo(frame=<frame at 0x1379c30, file 'mitmproxy/tools/main.py', line 134, code run>, filename='/tmp/_MEIWfUhOE/mitmproxy/tools/main.pyc', lineno=134, function='run', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027e4fda80, file 'mitmproxy/tools/main.py', line 157, code mitmdump>, filename='/tmp/_MEIWfUhOE/mitmproxy/tools/main.pyc', lineno=157, function='mitmdump', code_context=None, index=None), FrameInfo(frame=<frame at 0x7f027f4db2a0, file 'mitmdump', line 3, code <module>>, filename='mitmdump', lineno=3, function='<module>', code_context=None, index=None)]
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 157, in mitmdump
+  File "mitmproxy/tools/main.py", line 134, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 346, in hook_task
+  File "mitmproxy/proxy/server.py", line 359, in server_event
+  File "mitmproxy/proxy/layer.py", line 152, in handle_event
+  File "mitmproxy/proxy/layer.py", line 265, in handle_event
+  File "mitmproxy/proxy/layer.py", line 152, in handle_event
+  File "mitmproxy/proxy/layers/http/__init__.py", line 879, in _handle_event
+  File "mitmproxy/proxy/layers/http/__init__.py", line 935, in event_to_child
+  File "mitmproxy/proxy/layer.py", line 152, in handle_event
+  File "mitmproxy/proxy/layers/http/__init__.py", line 775, in passthrough
+  File "mitmproxy/proxy/layer.py", line 267, in handle_event
+  File "mitmproxy/proxy/layer.py", line 137, in handle_event
+  File "mitmproxy/proxy/layer.py", line 228, in __continue
+  File "mitmproxy/proxy/layer.py", line 191, in __process
+  File "mitmproxy/proxy/layer.py", line 284, in _handle_event
+  File "mitmproxy/proxy/layer.py", line 298, in _ask
+  File "mitmproxy/proxy/layer.py", line 152, in handle_event
+  File "mitmproxy/proxy/tunnel.py", line 98, in _handle_event
+  File "mitmproxy/proxy/layers/tls.py", line 473, in event_to_child
+  File "mitmproxy/proxy/tunnel.py", line 153, in event_to_child
+  File "mitmproxy/proxy/layer.py", line 152, in handle_event
+  File "mitmproxy/proxy/tunnel.py", line 70, in _handle_event
+  File "mitmproxy/proxy/layers/tls.py", line 547, in receive_handshake_data
+  File "mitmproxy/proxy/layers/tls.py", line 86, in parse_client_hello
+  File "mitmproxy/tls.py", line 26, in __init__
+1682133573.0883813 None
+127.0.0.1:42332: GET http://detectportal.firefox.com/canonical.html
+    Host: detectportal.firefox.com
+    User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0
+    Accept: */*
+    Accept-Language: en-US,en;q=0.5
+    Accept-Encoding: gzip, deflate
+    Cache-Control: no-cache
+    Pragma: no-cache
+    Connection: keep-alive
+ << 200 OK 90b
+    Server: nginx
+    Content-Length: 90
+    Via: 1.1 google
+    Date: Fri, 21 Apr 2023 16:33:45 GMT
+    Age: 38748
+    Content-Type: text/html
+    Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+INFO:mitmproxy.proxy.server:client connect
+[11:19:33.129][127.0.0.1:42340] client connect
+INFO:mitmproxy.proxy.server:client connect
+[11:19:33.141][127.0.0.1:42356] client connect
+WARNING:mitmproxy.proxy.server:Client TLS handshake failed. The client does not trust the proxy's certificate for incoming.telemetry.mozilla.org (sslv3 alert bad certificate)
+[11:19:33.146][127.0.0.1:42334] Client TLS handshake failed. The client does not trust the proxy's certificate for incoming.telemetry.mozilla.org (sslv3 alert bad certificate)
+

@@ -20,8 +20,13 @@ class Event:
     """
     Base class for all events.
     """
-
+    import traceback,inspect
+    print(" === e(o) === ",inspect.currentframe(), __file__, __name__)
+    print(" === e(o) === traceback.print_stack() : ", traceback.print_stack())  
     def __repr__(self):
+        #import traceback,inspect
+        #print(" === e === ",inspect.currentframe(), __file__, __name__)
+        #print(" === e === traceback.print_stack() : ", traceback.print_stack())        
         return f"{type(self).__name__}({repr(self.__dict__)})"
 
 

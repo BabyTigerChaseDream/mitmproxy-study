@@ -1,0 +1,123 @@
+(venv) jiaguo@ub2204:~/codespace/Tools/net/mitmproxy-study/release/dist$ ./mitmdump -vv
+ === e(o) ===  <frame at 0x7ff1ef1ae740, file 'mitmproxy/proxy/events.py', line 24, code Event> /tmp/_MEI991XqS/mitmproxy/proxy/events.pyc mitmproxy.proxy.events
+  File "mitmdump", line 2, in <module>
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "PyInstaller/loader/pyimod02_importers.py", line 352, in exec_module
+  File "mitmproxy/tools/main.py", line 15, in <module>
+  File "<frozen importlib._bootstrap>", line 1078, in _handle_fromlist
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "PyInstaller/loader/pyimod02_importers.py", line 352, in exec_module
+  File "mitmproxy/master.py", line 9, in <module>
+  File "<frozen importlib._bootstrap>", line 1078, in _handle_fromlist
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "PyInstaller/loader/pyimod02_importers.py", line 352, in exec_module
+  File "mitmproxy/eventsequence.py", line 11, in <module>
+  File "<frozen importlib._bootstrap>", line 1078, in _handle_fromlist
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "PyInstaller/loader/pyimod02_importers.py", line 352, in exec_module
+  File "mitmproxy/proxy/layers/__init__.py", line 1, in <module>
+  File "<frozen importlib._bootstrap>", line 1078, in _handle_fromlist
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "PyInstaller/loader/pyimod02_importers.py", line 352, in exec_module
+  File "mitmproxy/proxy/layers/modes.py", line 12, in <module>
+  File "<frozen importlib._bootstrap>", line 1078, in _handle_fromlist
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "PyInstaller/loader/pyimod02_importers.py", line 352, in exec_module
+  File "mitmproxy/proxy/events.py", line 19, in <module>
+  File "mitmproxy/proxy/events.py", line 25, in Event
+ === e(o) === traceback.print_stack() :  None
+ ===== Hello Jia Guo main ====== 
+[[[[[[Jia]]]]]]  <frame at 0xb6f1a0, file 'mitmproxy/addons/tlsconfig.py', line 30, code <module>> /tmp/_MEI991XqS/mitmproxy/addons/tlsconfig.pyc mitmproxy.addons.tlsconfig
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 143, in mitmdump
+  File "<frozen importlib._bootstrap>", line 1078, in _handle_fromlist
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "PyInstaller/loader/pyimod02_importers.py", line 352, in exec_module
+  File "mitmproxy/tools/dump.py", line 1, in <module>
+  File "<frozen importlib._bootstrap>", line 1078, in _handle_fromlist
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "PyInstaller/loader/pyimod02_importers.py", line 352, in exec_module
+  File "mitmproxy/addons/__init__.py", line 27, in <module>
+  File "<frozen importlib._bootstrap>", line 1078, in _handle_fromlist
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "PyInstaller/loader/pyimod02_importers.py", line 352, in exec_module
+  File "mitmproxy/addons/tlsconfig.py", line 31, in <module>
+[[[[[[Jia]]]]]] traceback.print_stack() :  None
+[[[[[[Jia]]]]]]  <frame at 0xeae230, file 'mitmproxy/tools/main.py', line 68, code main> /tmp/_MEI991XqS/mitmproxy/tools/main.pyc mitmproxy.tools.main
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/tools/main.py", line 69, in main
+[[[[[[Jia]]]]]] traceback.print_stack() :  None
+[[[[[[Jia]]]]]]  <frame at 0x7ff1edd72ae0, file 'mitmproxy/tools/dump.py', line 21, code __init__> /tmp/_MEI991XqS/mitmproxy/tools/dump.pyc mitmproxy.tools.dump
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/tools/main.py", line 72, in main
+  File "mitmproxy/tools/dump.py", line 22, in __init__
+[[[[[[Jia]]]]]] traceback.print_stack() :  None
+[[[[[[Jia]]]]]]in default_addon() :  /tmp/_MEI991XqS/mitmproxy/addons/__init__.pyc mitmproxy.addons
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/tools/main.py", line 72, in main
+  File "mitmproxy/tools/dump.py", line 25, in __init__
+  File "mitmproxy/addons/__init__.py", line 39, in default_addons
+[[[[[[Jia]]]]]] traceback.print_stack() :  None
+[11:44:54.326] Hello default_addons viplog 
+
+[setup_servers]  <frame at 0x7ff1ed6d3840, file 'mitmproxy/addons/proxyserver.py', line 286, code setup_servers> /tmp/_MEI991XqS/mitmproxy/addons/proxyserver.pyc mitmproxy.addons.proxyserver
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/tools/main.py", line 129, in main
+  File "mitmproxy/master.py", line 56, in run
+  File "mitmproxy/addons/proxyserver.py", line 287, in setup_servers
+[setup_servers] traceback.print_stack() :  None
+[11:44:54.357] HTTP(S) proxy listening at *:8080.

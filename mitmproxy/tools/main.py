@@ -64,6 +64,9 @@ def run(
         logging.getLogger("quic").setLevel(
             logging.WARNING
         )  # aioquic uses a different prefix...
+        import traceback,inspect
+        print("[[[[[[Jia]]]]]] ",inspect.currentframe(), __file__, __name__)
+        print("[[[[[[Jia]]]]]] traceback.print_stack() : ", traceback.print_stack())
         debug.register_info_dumpers()
         opts = options.Options()
         master = master_cls(opts)
@@ -125,11 +128,6 @@ def run(
 
         await master.run()
         return master
-
-    import traceback,inspect
-    #print("[[[[[[Jia]]]]]] Self-test",__file__, __name__)
-    logging.info("[[[[[[JiaGuo]]]]]] ",__file__, __name__)
-    logging.info("Self-test successful.")
 
     return asyncio.run(main())
 

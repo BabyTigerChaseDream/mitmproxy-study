@@ -208,10 +208,10 @@ class Proxyserver(ServerManager):
         self.is_running = True
 
     def configure(self, updated) -> None:
-        import traceback,inspect,time
-        print("[Jia]",__file__, __name__)
-        print(time.time(),inspect.stack(context=5))
-        print(time.time(),traceback.print_stack())
+        #import traceback,inspect,time
+        #print("[Jia]",__file__, __name__)
+        #print(time.time(),inspect.stack(context=5))
+        #print(time.time(),traceback.print_stack())
         if "stream_large_bodies" in updated:
             try:
                 human.parse_size(ctx.options.stream_large_bodies)
@@ -282,6 +282,10 @@ class Proxyserver(ServerManager):
                 self._update_task = asyncio.create_task(self.servers.update(modes))
 
     async def setup_servers(self) -> bool:
+        import traceback,inspect
+        print("[setup_servers] ",inspect.currentframe(), __file__, __name__)
+        print("[setup_servers] traceback.print_stack() : ", traceback.print_stack())
+
         return await self.servers.update(
             [mode_specs.ProxyMode.parse(m) for m in ctx.options.mode]
         )
@@ -295,6 +299,10 @@ class Proxyserver(ServerManager):
             event.flow.client_conn.peername,
             event.flow.client_conn.sockname,
         )
+        import traceback,inspect
+        print("[inject_event] ",inspect.currentframe(), __file__, __name__)
+        print("[connection_id] ",connection_id)
+
         if connection_id not in self.connections:
             raise ValueError("Flow is not from a live connection.")
         self.connections[connection_id].server_event(event)
@@ -319,6 +327,10 @@ class Proxyserver(ServerManager):
     def inject_tcp(self, flow: Flow, to_client: bool, message: bytes):
         if not isinstance(flow, tcp.TCPFlow):
             logger.warning("Cannot inject TCP messages into non-TCP flows.")
+
+        import traceback,inspect
+        print("[[[[[[Jia]]]]]] ",inspect.currentframe(), __file__, __name__)
+        print("[[[[[[Jia]]]]]] traceback.print_stack() : ", traceback.print_stack())
 
         event = TcpMessageInjected(flow, tcp.TCPMessage(not to_client, message))
         try:
