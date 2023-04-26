@@ -1,0 +1,725 @@
+[09:56:01.824][127.0.0.1:43296] client connect
+=== inspect.currentframe ===  <frame at 0x2d77de0, file 'mitmproxy/proxy/server.py', line 358, code server_event> /tmp/_MEIx8M5g3/mitmproxy/proxy/server.pyc mitmproxy.proxy.server
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/mode_servers.py", line 211, in handle_tcp_connection
+  File "mitmproxy/proxy/server.py", line 151, in handle_client
+  File "mitmproxy/proxy/server.py", line 359, in server_event
+
+
+===   traceback.print_stack() ===:  None
+
+
+ event: Start({})
+=== inspect.currentframe ===  <frame at 0x2d77de0, file 'mitmproxy/proxy/server.py', line 358, code server_event> /tmp/_MEIx8M5g3/mitmproxy/proxy/server.pyc mitmproxy.proxy.server
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 291, in handle_connection
+  File "mitmproxy/proxy/server.py", line 359, in server_event
+
+
+===   traceback.print_stack() ===:  None
+
+
+ event: DataReceived(client, b'CONNECT example.com:443 HTTP/1.1\r\nHost: example.com:443\r\nProxy-Connection: keep-alive\r\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36\r\n\r\n')
+=== inspect.currentframe ===  <frame at 0x2d77de0, file 'mitmproxy/proxy/server.py', line 358, code server_event> /tmp/_MEIx8M5g3/mitmproxy/proxy/server.pyc mitmproxy.proxy.server
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 346, in hook_task
+  File "mitmproxy/proxy/server.py", line 359, in server_event
+
+
+===   traceback.print_stack() ===:  None
+
+
+ event: Reply(NextLayerHook(data=NextLayer:HttpLayer(regular, conns: 0)), None)
+=== inspect.currentframe ===  <frame at 0x2d77de0, file 'mitmproxy/proxy/server.py', line 358, code server_event> /tmp/_MEIx8M5g3/mitmproxy/proxy/server.pyc mitmproxy.proxy.server
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 346, in hook_task
+  File "mitmproxy/proxy/server.py", line 359, in server_event
+
+
+===   traceback.print_stack() ===:  None
+
+
+ event: [[[[[[Jia]]]]]]  <frame at 0x2d53a30, file 'mitmproxy/connection.py', line 133, code tls_established> /tmp/_MEIx8M5g3/mitmproxy/connection.pyc mitmproxy.connection
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 346, in hook_task
+  File "mitmproxy/proxy/server.py", line 361, in server_event
+  File "mitmproxy/proxy/events.py", line 104, in __repr__
+  File "dataclasses.py", line 405, in wrapper
+  File "<string>", line 3, in __repr__
+  File "mitmproxy/http.py", line 1287, in __repr__
+  File "mitmproxy/connection.py", line 198, in __str__
+  File "mitmproxy/connection.py", line 134, in tls_established
+[[[[[[Jia]]]]]] traceback.print_stack() :  None
+[[[[[[Jia]]]]]]  <frame at 0x2d53a30, file 'mitmproxy/connection.py', line 133, code tls_established> /tmp/_MEIx8M5g3/mitmproxy/connection.pyc mitmproxy.connection
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 346, in hook_task
+  File "mitmproxy/proxy/server.py", line 361, in server_event
+  File "mitmproxy/proxy/events.py", line 104, in __repr__
+  File "dataclasses.py", line 405, in wrapper
+  File "<string>", line 3, in __repr__
+  File "mitmproxy/http.py", line 1287, in __repr__
+  File "mitmproxy/connection.py", line 294, in __str__
+  File "mitmproxy/connection.py", line 134, in tls_established
+[[[[[[Jia]]]]]] traceback.print_stack() :  None
+Reply(HttpConnectHook(flow=<HTTPFlow
+  request = Request(CONNECT example.com:443)
+  client_conn = Client(127.0.0.1:43296, state=open)
+  server_conn = Server(<no address>, state=closed)>), None)
+[09:56:02.157][127.0.0.1:43296] server connect example.com:443 (93.184.216.34:443)
+=== inspect.currentframe ===  <frame at 0x2d77de0, file 'mitmproxy/proxy/server.py', line 358, code server_event> /tmp/_MEIx8M5g3/mitmproxy/proxy/server.pyc mitmproxy.proxy.server
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 247, in open_connection
+  File "mitmproxy/proxy/server.py", line 359, in server_event
+
+
+===   traceback.print_stack() ===:  None
+
+
+ event: Reply(OpenConnection({'connection': Server({'id': '…800d2f', 'address': ('example.com', 443), 'peername': ('93.184.216.34', 443), 'sockname': ('192.168.71.10', 40238), 'state': <ConnectionState.OPEN: 3>, 'timestamp_start': 1682474161.865311, 'timestamp_tcp_setup': 1682474162.1567955})}), None)
+=== inspect.currentframe ===  <frame at 0x2d77de0, file 'mitmproxy/proxy/server.py', line 358, code server_event> /tmp/_MEIx8M5g3/mitmproxy/proxy/server.pyc mitmproxy.proxy.server
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 291, in handle_connection
+  File "mitmproxy/proxy/server.py", line 359, in server_event
+
+
+===   traceback.print_stack() ===:  None
+
+
+ event: DataReceived(client, b'\x16\x03\x01\x02?\x01\x00\x02;\x03\x03H\x93)\xd5\xa3\xf0\xc1\x87\xd5\x85|J}\x89]\x84\x88g\x117\xd6\xcbo\xdc7\x7f;\xdb\x94\xbc\xeau \xe4\xdf9)U\xbc\x01\xdc\xf8t?\xdd\x99U?\xb8\x864o\xe2\xe2\x83\xe4\xcbc\xbd\xc03(^X\xd2\x00 \xea\xea\x13\x03\x13\x01\x13\x02\xcc\xa9\xcc\xa8\xc0+\xc0/\xc0,\xc00\xc0\x13\xc0\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\xd2\x1a\x1a\x00\x00\x00+\x00\x07\x06\xaa\xaa\x03\x04\x03\x03\x003\x00+\x00)\xea\xea\x00\x01\x00\x00\x1d\x00 \xd0D\xb1\xbe\x9c}"\xa7\x9eu\x00\xaf\x9d\xf2\xd8\xce)\x0e\x13\xb9\xde\x00\xf8\xd8\xec\xd7I\xc93\x8e\xcf=\x00\x0b\x00\x02\x01\x00\x00\x17\x00\x00Di\x00\x05\x00\x03\x02h2\x00#\x00\x00\x00\x12\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x00\x00\x10\x00\x0e\x00\x00\x0bexample.com\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00-\x00\x02\x01\x01\x00\r\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\xff\x01\x00\x01\x00\x00\n\x00\n\x00\x08\xea\xea\x00\x1d\x00\x17\x00\x18\x00\x1b\x00\x03\x02\x00\x02\n\n\x00\x01\x00\x00)\x01\x0b\x00\xd6\x00\xd0r\x1c\xa8L\xcey;?y\xa3\x15\xa8\x9b\xcf\x98\x00\xe4\x7f\xbes?\t\xae_\xab\xe6~\xaa\x10\xd3\xfe\x929\xff\x1e(\xdb\x0e\x1f\x1b\xf8\xbf\x88\x80\xce5\xc0\x8d\x05\xf5unT\x8b\x13\xf3\x83\xfcp\xb5\xe9\xed\x90E\x86\xf7\xd2c\x87\xa8\xd1\xe2\x16\xd7K\x8a\xbb\xbbo\xa6\x9fDVk\x03\xc1\x8b\x86\xe5\xe0kR\x03v\xb1\xa8\t\x91\x01\xd6\xba\xf9\x8a\t\x00H\xc5\x05\xe2%\x1a\xbbLo\xb8\xcaTI\xe1_%\x8df\xfb\xe7\xea\xf7\x03\xd6\xd0T.\xa9\x17\x1f\xef`\xc1A\xbb%\xf0\xac\xa2\xd7\x80v\xab\t\xc9\xdc\xc4U\xdf\x1a\xdb\xbbG\xd2\x0e\x06\x8d\xb3\x9bH\xd1\xad\xe0T)\xd0&\xbd\xb6\xe9\x05\xdc[\x85\x9dJ\xbd\xa9\xdf}?\x91\xb0\xf0k\xe4/B7\xe2\xb8\xa6\xd9]\xbb\x1c`\xbf"\x81O\xbd9R\x9a\x1e\x0f\x0010\x0f\xe5\xc0\x81\x9f\xf7\xc5\xf8\xd9\xaa\x0b\x14\x14!m\x9e\x06\xde\xdc8\x12\x97\x0fi.\xc4\xbe\xeb7\x16\xe8\t\xa22\\\xa7\x14P\x94q\xd7\xe9\xd1K\xff\xc6\xe6p')
+=== inspect.currentframe ===  <frame at 0x2d77de0, file 'mitmproxy/proxy/server.py', line 358, code server_event> /tmp/_MEIx8M5g3/mitmproxy/proxy/server.pyc mitmproxy.proxy.server
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 346, in hook_task
+  File "mitmproxy/proxy/server.py", line 359, in server_event
+
+
+===   traceback.print_stack() ===:  None
+
+
+ event: Reply(NextLayerHook(data=NextLayer:ServerTLSLayer(inactive None None)), None)
+[[[[[[Jia]]]]]]  <frame at 0x7f7164834040, file 'mitmproxy/tls.py', line 25, code __init__> /tmp/_MEIx8M5g3/mitmproxy/tls.pyc mitmproxy.tls
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 346, in hook_task
+  File "mitmproxy/proxy/server.py", line 364, in server_event
+  File "mitmproxy/proxy/layer.py", line 152, in handle_event
+  File "mitmproxy/proxy/layer.py", line 265, in handle_event
+  File "mitmproxy/proxy/layer.py", line 152, in handle_event
+  File "mitmproxy/proxy/layers/http/__init__.py", line 879, in _handle_event
+  File "mitmproxy/proxy/layers/http/__init__.py", line 935, in event_to_child
+  File "mitmproxy/proxy/layer.py", line 152, in handle_event
+  File "mitmproxy/proxy/layers/http/__init__.py", line 775, in passthrough
+  File "mitmproxy/proxy/layer.py", line 267, in handle_event
+  File "mitmproxy/proxy/layer.py", line 137, in handle_event
+  File "mitmproxy/proxy/layer.py", line 228, in __continue
+  File "mitmproxy/proxy/layer.py", line 191, in __process
+  File "mitmproxy/proxy/layer.py", line 284, in _handle_event
+  File "mitmproxy/proxy/layer.py", line 298, in _ask
+  File "mitmproxy/proxy/layer.py", line 152, in handle_event
+  File "mitmproxy/proxy/tunnel.py", line 98, in _handle_event
+  File "mitmproxy/proxy/layers/tls.py", line 473, in event_to_child
+  File "mitmproxy/proxy/tunnel.py", line 153, in event_to_child
+  File "mitmproxy/proxy/layer.py", line 152, in handle_event
+  File "mitmproxy/proxy/tunnel.py", line 70, in _handle_event
+  File "mitmproxy/proxy/layers/tls.py", line 547, in receive_handshake_data
+  File "mitmproxy/proxy/layers/tls.py", line 86, in parse_client_hello
+  File "mitmproxy/tls.py", line 26, in __init__
+[[[[[[Jia]]]]]] traceback.print_stack() :  None
+=== inspect.currentframe ===  <frame at 0x2d77de0, file 'mitmproxy/proxy/server.py', line 358, code server_event> /tmp/_MEIx8M5g3/mitmproxy/proxy/server.pyc mitmproxy.proxy.server
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 346, in hook_task
+  File "mitmproxy/proxy/server.py", line 359, in server_event
+
+
+===   traceback.print_stack() ===:  None
+
+
+ event: Reply(TlsClienthelloHook(data=ClientHelloData(context=Context(
+  Client({'id': '…4e8217', 'address': None, 'peername': ('127.0.0.1', 43296), 'sockname': ('127.0.0.1', 8080), 'state': <ConnectionState.OPEN: 3>, 'tls': True, 'alpn_offers': [b'h2', b'http/1.1'], 'sni': 'example.com', 'timestamp_start': 1682474161.822702}),
+  Server({'id': '…800d2f', 'address': ('example.com', 443), 'peername': ('93.184.216.34', 443), 'sockname': ('192.168.71.10', 40238), 'state': <ConnectionState.OPEN: 3>, 'tls': True, 'timestamp_start': 1682474161.865311, 'timestamp_tcp_setup': 1682474162.1567955}),
+  layers=[[HttpProxy(state: handle_event), HttpLayer(regular, conns: 2), HttpStream(id=1, passthrough), ServerTLSLayer(closed None None), ClientTLSLayer(establishing 'example.com' None)]]
+), client_hello=ClientHello(sni: example.com, alpn_protocols: [b'h2', b'http/1.1']), ignore_connection=False, establish_server_tls_first=True)), None)
+[[[[[[Jia]]]]]]  <frame at 0x2d53a30, file 'mitmproxy/connection.py', line 133, code tls_established> /tmp/_MEIx8M5g3/mitmproxy/connection.pyc mitmproxy.connection
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 346, in hook_task
+  File "mitmproxy/proxy/server.py", line 364, in server_event
+  File "mitmproxy/proxy/layer.py", line 152, in handle_event
+  File "mitmproxy/proxy/layer.py", line 265, in handle_event
+  File "mitmproxy/proxy/layer.py", line 152, in handle_event
+  File "mitmproxy/proxy/layers/http/__init__.py", line 879, in _handle_event
+  File "mitmproxy/proxy/layers/http/__init__.py", line 935, in event_to_child
+  File "mitmproxy/proxy/layer.py", line 152, in handle_event
+  File "mitmproxy/proxy/layers/http/__init__.py", line 775, in passthrough
+  File "mitmproxy/proxy/layer.py", line 152, in handle_event
+  File "mitmproxy/proxy/tunnel.py", line 98, in _handle_event
+  File "mitmproxy/proxy/layers/tls.py", line 473, in event_to_child
+  File "mitmproxy/proxy/tunnel.py", line 153, in event_to_child
+  File "mitmproxy/proxy/layer.py", line 137, in handle_event
+  File "mitmproxy/proxy/layer.py", line 228, in __continue
+  File "mitmproxy/proxy/layer.py", line 191, in __process
+  File "mitmproxy/proxy/tunnel.py", line 70, in _handle_event
+  File "mitmproxy/proxy/layers/tls.py", line 583, in receive_handshake_data
+  File "mitmproxy/connection.py", line 134, in tls_established
+[[[[[[Jia]]]]]] traceback.print_stack() :  None
+=== inspect.currentframe ===  <frame at 0x2d77de0, file 'mitmproxy/proxy/server.py', line 358, code server_event> /tmp/_MEIx8M5g3/mitmproxy/proxy/server.pyc mitmproxy.proxy.server
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 346, in hook_task
+  File "mitmproxy/proxy/server.py", line 359, in server_event
+
+
+===   traceback.print_stack() ===:  None
+
+
+ event: Reply(TlsStartServerHook(data=TlsData(conn=Server({'id': '…800d2f', 'address': ('example.com', 443), 'peername': ('93.184.216.34', 443), 'sockname': ('192.168.71.10', 40238), 'state': <ConnectionState.OPEN: 3>, 'tls': True, 'alpn_offers': (b'h2', b'http/1.1'), 'sni': 'example.com', 'timestamp_start': 1682474161.865311, 'timestamp_tcp_setup': 1682474162.1567955}), context=Context(
+  Client({'id': '…4e8217', 'address': None, 'peername': ('127.0.0.1', 43296), 'sockname': ('127.0.0.1', 8080), 'state': <ConnectionState.OPEN: 3>, 'tls': True, 'alpn_offers': [b'h2', b'http/1.1'], 'sni': 'example.com', 'timestamp_start': 1682474161.822702}),
+  Server({'id': '…800d2f', 'address': ('example.com', 443), 'peername': ('93.184.216.34', 443), 'sockname': ('192.168.71.10', 40238), 'state': <ConnectionState.OPEN: 3>, 'tls': True, 'alpn_offers': (b'h2', b'http/1.1'), 'sni': 'example.com', 'timestamp_start': 1682474161.865311, 'timestamp_tcp_setup': 1682474162.1567955}),
+  layers=[[HttpProxy(state: handle_event), HttpLayer(regular, conns: 2), HttpStream(id=1, passthrough), ServerTLSLayer(establishing 'example.com' None), ClientTLSLayer(establishing 'example.com' None)]]
+), ssl_conn=<OpenSSL.SSL.Connection object at 0x7f7164838be0>, is_dtls=False)), None)
+=== inspect.currentframe ===  <frame at 0x2d77de0, file 'mitmproxy/proxy/server.py', line 358, code server_event> /tmp/_MEIx8M5g3/mitmproxy/proxy/server.pyc mitmproxy.proxy.server
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 291, in handle_connection
+  File "mitmproxy/proxy/server.py", line 359, in server_event
+
+
+===   traceback.print_stack() ===:  None
+
+
+ event: DataReceived(server, b'\x16\x03\x03\x00X\x02\x00\x00T\x03\x03\xcf!\xadt\xe5\x9aa\x11\xbe\x1d\x8c\x02\x1ee\xb8\x91\xc2\xa2\x11\x16z\xbb\x8c^\x07\x9e\t\xe2\xc8\xa83\x9c \xe6\x950\xbeg\xcc\xa5\x01oz\x99\x89Sr#I\xa1\x85Y\xc6\x06\x91N?\xf8\x9f\xad\x03\x0e\xc3\xde)\x13\x02\x00\x00\x0c\x00+\x00\x02\x03\x04\x003\x00\x02\x00\x17\x14\x03\x03\x00\x01\x01')
+=== inspect.currentframe ===  <frame at 0x2d77de0, file 'mitmproxy/proxy/server.py', line 358, code server_event> /tmp/_MEIx8M5g3/mitmproxy/proxy/server.pyc mitmproxy.proxy.server
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 291, in handle_connection
+  File "mitmproxy/proxy/server.py", line 359, in server_event
+
+
+===   traceback.print_stack() ===:  None
+
+
+ event: DataReceived(server, b'\x16\x03\x03\x00\x9b\x02\x00\x00\x97\x03\x03\xdd\xc7\x94R\x9c\xb8\x8fLE\x7f\xb2?M\xcc\xa2\x92\xe8c\xc1HF\xce;\x0b\xa6\x99\x1f\xf3\xcb\xb3@\xb2 \xe6\x950\xbeg\xcc\xa5\x01oz\x99\x89Sr#I\xa1\x85Y\xc6\x06\x91N?\xf8\x9f\xad\x03\x0e\xc3\xde)\x13\x02\x00\x00O\x00+\x00\x02\x03\x04\x003\x00E\x00\x17\x00A\x04\xc6\xb9/\rX"\xcb\xfb\x13p\xe3\xd1\x9b\xecN\xeaA\xfa\x0f\xd5\xd9\x12\x0fRE\xf2\x80I\xe5\x92\x96~3v\xfb\x80\xe4v:\x1a\x85\x03\xfe\x8f\x9et\x102\x8b\xa3VS\xe8\x14{\x88[\xa8\x9b\xaa\xb5\xa6\x8c>\x17\x03\x03\x00 Q\x99]\xea!\x1f\x82\x8eY\x05\xf6\x8c\x92\xd7r\xb5H\xc2&O\xab\xd4t#ru\xa7[Fy\x11\xfe\x17\x03\x03\x0c3\x9cII\xba\xfeOT>\xca\x92\x16\xa2\xccIt\x02\x19\xac*\xd3\xfd\xd7Q\xa0\x9dhHn\x07l\xb19\'\xe6\xa9\xa5\xec{\x91"\x01\\<K\x86\x9f\xb4\xddDI5{~_l%\xf4+\xb6e\xae\x06D\x0e[`$\xef\xa6\xf6#3y\xfb*\x91\x10r[1HqT\xee\x1fP\x96\xce\xf9\xb3\xe1\x82U\xf7z\xeb\x96M)Q\xa4S\xd9\xd3v(&Jzt\xb5\xe3\xeah\x04\x06\xe9\x84L\\Pny\x08$h\x8e\xb1m\x08<Hf\xde\x18rzk\xd9\xca\x1e\x04\x1e{\xad\xc8\xf6\xe7\x15W\x8d\x16x\xb3\r\xa7\xd5\x8cz\x8f@\x8b\x84\xfa\xe3\xe6\x0f\x11\xc4K\xdd\x1f\xdb$%B\xe9\x99\xa3\xcex\x9f\x9c\xeat\xc5\xc8\x0e\xc0\x85\xf2\xd6\x8b\xc2a0\xe4\x80\x86~5\x93\xbd\xd3S\xc5\x0b\x91A\'\xfb\xb6V\xe5\xc0\xf3rM\x90s\x08\xb6(\x7f^\x0c\xa9j\xef\xa9\xcf/`,\xc7\x0cC\x8c\r\x03d\x18b\x10\xbf\x8d^U3t\x9b\x9a\xe3}\x1e\xaeD/\xac\xb2OW\xfa\x97\xcf\x04tdv\xb2s\x94\xef\x98\xaa\xa5\xec2y\xecB\xeav\xb6\xc8`\x9e\x16\xd9\x89\x84K\xaf\xe1\xf7\xcbj\x15\xe0\xebbC\x17\xd3>\xba\x04\x1e\xb7R\xcc\x8b"\x01r/\xb64\xcd\x05\xc7\xa751O9\x008!\x13U\xb5\x9f4\x92\x1bk\x1e\xae\x93\xb7;\x11cM\x8c\xb7\x13v\xc3\x91\xe5h\xfeI\t*v\x94\xb5\xb5\xf9>)\xc2O\xa5ch)]\n\x065,\xfd[\xd0\x86\xc4\x97\x89\xa9a\x10\xce\x8c\x98e\'\xf4\xe6\x8a\xe4\xc6\x97\xab\x7f\x15\xb0@\xe3]!\x8e1\x9f\x93\xd2\xf00\xd5\xd0/\x98^\x96\xc8h\x95\xa1\x9dc\xa6\xcd\x880\xe1iN%z\xb9\x96\xf9^\xbb\x1aP(\xb0Zj\x1a\x16Av\xb2\xaa\xc4H\'\xcb\xcf\xa1\x9a\xfb+\xe3o)\xfc\x01f\x15\x9c-\x84\xf6p]bc\xbb\xe4\xcc\'\n\xcc*\x84)\xf8\xd8\xa7\xe5\xbd\x18\xe2\x06\xe0\xcbo\xef\xe8 d\xa9\xf2!\x12X\x813\xdcQM c\xb8\xa8\x03\x9a\xe5~z)\xec\xa9Y\xe7\xaa\xbe\xa3\xd2\xfb\x17\xb25\xb7\x04hu\xbe\xc7\xcdEBQu\xe6\xbd\xa1\x03 \xbcb\xdeD@&\xd8\xdc\x03\x89T\xddO\x97A\x8e\x97\xdf)\xab];\xf0\xac\xa1\x15\xc9\xa5!}\xc8#\xe9~\xaa\x91\\\x1f\x90dO`\x7fN\x13\x0c\xee+\xba\xd3\xe7\x99\xcc\xd1t\x9f\xfe[\xdf\xe0ztpX\xab%\xa4:\xa1\xa5\xc5^/)}\xac9\xb2a_"\xe4\x98\x04b\x87\xfb\xbf\xb5x\r\xe6\xd9\x9f\xd12\xd2\x99\xd2\xafc\xcb\xc8\x99\r)\xdf\xc0!\x0c18\x96\xe1u\xa8\x1b\x16\xca\\\x9bxV&\xa7\x88\xae\xdc?\x90\xaci\xfd\xc4u\x8575;\x97\x9c\xcb?\xae\xb3h\x88\xb6\xe5|\xf2\xf1\xa6\xf0\xa3\xc6\x9e\xe4\xdb\xf2v\xde\xb1\x80*\x85C\x00\x90\xc9\xa43z\xd5\x02H\xb4\xd2O\x10\x99\xd5\xbb\xee\xef\x01\x0e\x0enIRF\x9a\x9c\xef\x06\x14\xe8\xdf\xb4\x99\xa2\x1c.\xc4\xec?\xcd\x8d]\xc3\xf0\xaa!\x04\xf7\x01\xbc\xb9\x86\x0b\x06\xf1\\\xb7\xb1\xf1v*\x87\x16\xdd}\xe47\xe7K\xe6\xdc\xa5\x16\xb9\x14\xeed\x10j\xf3\x10)\x1a\'\x16\x05a\xd3n\xe60V x\x05y\xe4\xad\x12\x8c\x8aC\x11\x85\xf4\xceM\xdcB\rD\xf7\xb4\xed\x18P[\xc4\xad\xe8\xda\xfdK\x8d\x95D\xef\xf5\xb6l\xde\x1eaQ\x07\x0foI\xd7b<\xbd@h\xb1\x1b\xfe\xf0\x9d\x00\xc5wtsG\xdeEfum_\xa0\xf5\xe56\x9e\xcbU\x87\xc26\xa5\xfd\x9d\xb8tr\xc3\x8c\xa4\x8e\xde\r\x9f\xf5\x9e\xb0TW|\xa6\x9f\x07\xef\x8d\x83\x9e1\x86z\x7fu#\xa5\xfd\xb0\xea5\xa1\xf1\x08\x17T+\x08\n\x08\x12\x1fZd\x01\xa2{\xdcHZ\x1b>\x14\x7f\x07K\x06\xf3\x04\xc7\xebg\xad\xb30Y\x13\x00W\xc7\xf3\xa9\x18\xb8\x12\x98\xdfU\xce\x1eW7\x95\xd3\xb2+*0 \x07\xf3\x7f\x93&c\raY.\xfb^\x88\xbe\x13.\\P 6\\\xd2\xf7e\xf0\xf5K%\x18\xb9\xf5\xe9\x1a\x8a\xc1 \xa0\xdf\x17\x10h\x87\x96j\x89\xf0(\x0e\x07\xecm\xc0I#\xb9tm\x05\xf9\x8a\xb7_\x96\xderU\xac\xcb\xb8!\xec\xa4\xb8f;\xc5\x0f\xac\x9a\xd2\x94\'/\xb5\x0f\xa8\x8e\'\xda \xb4\xe0\\\xad\x92\xcc\xbc`\xca\xe1\xe9\xdf\x9fN\x888\xad\xe3w\xeb\xc4\xee0\xb3\x7f6\x12\xd50\x19\n\x0b\xab\x85C\xd9\xf2\xd5]\x80\n\xf5+F9b\xcc\xea.*gr]\xd5V\x8d\xd2\xa6\x8fZ\x8cl\xbaF\xa5\xfeuyKaS\x97W8\x08_\xf0\xf2I,\xc8!j\x85ok#\xaf\xffG2Kz\xe0v\xd5K\t\xe1\xa4\x8ew.\t\xd8k\xd1\xd8\xca\x8c@\xe4a\xf7p\xb2\x07')
+=== inspect.currentframe ===  <frame at 0x2d77de0, file 'mitmproxy/proxy/server.py', line 358, code server_event> /tmp/_MEIx8M5g3/mitmproxy/proxy/server.pyc mitmproxy.proxy.server
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 291, in handle_connection
+  File "mitmproxy/proxy/server.py", line 359, in server_event
+
+
+===   traceback.print_stack() ===:  None
+
+
+ event: DataReceived(server, b'\xb5\xcd\x9e!\xd5]\xb7-\xf50\x07\xe3e\xa3Of\xc0\x04\x0c\x0c\x90/\xf5[`1\xa5.\x8e\x98\x1d\xeb\x10O\x8a\xfa3\xbfkq\x87c\xed\'\xb6\x17\xabDW\xae\xf3\x92od?\xb9pb&\x82y\xbc\x16\xdb\xdc\x13r*\xde`v \xa6`\x14\x00\xac\xbc,\xa9\xcci\x90h\xfd\xf2\x15\xef\xd94%\x04\x92j\x0e\x07o\xd1\'\xcf\x93?\x06\xec\xf0VL\xf8\xad\x8480w\xc2\x06\xd4\x1a\xa5"\x83\xebEF\x8f\xd8:&-d5{\xcc0\x86\xe4\x91\xccJ\xc8\xfaa\x81\xe2\xe1\xc4\xbd\x00\x9e*C9J\x10\x9e77\xe7\nD\x18\\=\xb6\xb9+\xc0SP2\xc9)36J\r\xcc \x81\x07g\xbd\xb2\x90\xa2,\x9b\xf2AP\xa9k\x04q\xd7:\xccS\xca\xd6Z\xb8\x92\xe04Z\xf6[\xda\xe6W\xa0#\x0e\xe9\xfb\xe2\xc9\xc8\x16M5\xecmt\xe9\xe2\x9dL\xff\xbc\xe7i\xf6?W_\x1e\xf2_]wU\xab\x9e\xdc\x11j\x98\x8a\xce5;%<\xf4\xd5\x9cC\x96\x06\xfc\xcb\xa2\x02\xfd~\x90\x9d\'\x9b\xbeNVM\xa3Q\x8b\x9d\xf8w\x01\xa9\xdb\xf2\xd7Y\x98\xb9\xc6\x985\xbe\xf2\xfa\xba2G\x9a5\xc9\x02}\x87\xfc}uJ\x97\x17\xa1\x86G\x96B\x98\xd14\x15t\\\xd2\xc3\xeb,:\x82\xa5\xf1c\xdf\xe1E\xfc\xb6pC\x9fV/\xa1\x82\xdf\xb8X\xa1\x8fng%\xc5xK^\x18\x8a\xd9\x12\xfew\xc7\xfb6\xf77yR\xd4T\x16l\x1a\x8d$i\xfa@ \xcbh|D\xd3\xa7\xd5J"\xa1\xd4\xfa\xa4\x05~\xd6\x0c<\xdc\xd4\x88\xa9A\x0b\xbdd\x9b)\x9b\xebx\r\x87A[\xf5\xe6\\\xc3\x85\xbb\xba^\xcb\x19T\x02r\xcb\xae\xca\xadO\xba\x14VY\x85\x17U\x103\x8f\xbb\x18 I\xce\x91x\x1c9rN\xc5\xefi\x1f:\xb7\x9e"\xaa^\xf7k\xf6~\xdc\xf28\xe4H\xf0\xe2\x8c8p\xb6\xd0\x13<5\x98\xf9\x80\x9c\xd2\xaak@\x15\x7f\xca\xbc\xab\xbf5\x01bK\x9at\xb4J\x99\x81\xc3&}!\x98b!\xe4\xa5\xd4~$\xee\x8d#,\x06\xef\xa1FT&\x02Pw\r0\x84\xb4\xd4\xd9s\xfbTXV\xf5\xc0$\x1f\xbft\xa0_\xbf\x07\x90xZi\xd1\x96t<\x87\xce@\xfc\xc3P\x81\xde\xba\'wr/\xe8\xfb\xa9\xf4="\x10*hlEIq\x12\x12~w\x8a\xd2\xad%\x88\xf4r\xfd\xaa\x06\x1c\x07\xa1\x8a\xceiPa\xfd\xea\xe3"\xd6\x92\x1f\xf7\xb9\xb2]\xa6\xb8d3\x10L\x1c\x1bWy\x98B\x93 $\xabYA\x06#\xb8\x87\xb6\xda\x94\xad\xa9\x07G\x92\xd5\xf8\x03G\x8d\x15\xa3\x0b\xd4\x95\xd9\xac\xed\xb3\x9c\xad\x06\r\x8e\x9bd\xdb{\x94\xdeag\xb5\xf9\x07\xdb*\x02\xde\xad\xfd\xc7\x80n\xbb\xb2\xd0\xec\x91r\x1b\xc7\x83\x0b\x05,Gp\xb1[\x13\xdd\xd1\xad4\x13\xad_\x04\xa4D\x0b\xd70WX\x89\x95b\xba\xac0E\xcb\x071nEw\x12]R3\x97s;\x8aiq\x80y\xd8a\xb7\x1f\x91\xf5~\xe3\x9c\x0e\x86\x9a\xc3=^E\x7fsx\xe1u$\x19\x95\xd8\x0f\x02\xd7.\xb2\x9ek~\x9e\x8a\x84\x93\x12\x8e\x18\xaf\x19\xbb\xc8Yc\x05\x1b\x05\xcfXh*\x8a _\xeb\x85\xcd\x1a\xf2\xe2\x8f\xbf\x94?\xd7\xd2\xcb\xa9\x89\xd3z\xa9O\t\xf7\xf5!(\t\xc03\xc9\xa0\xa2Z\x85\xefC\xfd(\xb5\x83\xf8e\xe8\xe6\xbd\x83\xa8\xe5\xbbZ\xde\xd6S\xad\x92\x90K\xe6.]d|,}\x94\xeeL\xd7\x10\xd8W\x90\xff\x19$]vn\xa5\x1bHR\x83\x11W\x08\xd6:\xb2\xe1n\xf0h\xf8\x9f\x1a\xefc\x88{\xf6\xb3mGbU\xadnd\x85\x1a\xc2%\xf9\x1dR\x02\xc6\x07:\x9f\r\x12\x01\xaf\xa5\xa4\xba\xb9l\x98\x8e \xe5\xa0\xea\x12\xed\xef\x193\xd2\x06\xc3h\x00\xfc\xf9\x06[\xd3("\xe3\x7f\xa9D&\xa7=y*\xfd\xd1`&$X\x9e\xd0E\x81\x92\xcdM\x92|c\x1b\xda\x15\x0c\xe7\xcae\xac\xcd7k\xf0C>-\xd7\xef\xb2\xfb.\xe3 W\xb0\x81\xa7\x97\x99\xd7\r\x82-\x86\x95\xb8\xf9(3\xe4\xb4\xe8\x08\xa6\x01\xaed\x9c\x8a:]\x8d\x10\xe6 \xe6x\xed\xb8\x01T\xe64\xee[\xaf\x10\x0f3\xdf\xc4\xf83me\xb4\x00\x910j\xeb\xef\xfc\x92\xe8\xebWf\x14)\r\xfd\x13\xf9\x9b\x11\xa2\xc3\x05F\xd0=\xda\xd5\x16\xe8\x0egK\xc8\xd4s.C\xe5\x16\x82\xe9\x18\x99[,>\xbfH\x13\xb7\xc9\x06\xb5\xbbQ\x1cJ\xc1L\xd8Zg%\x86\xc8\xedqY||\x89\xfd\x98\x1b|\x9c\x8c\xb3\xe5\x05\xf7\xfa\xdd\xc0>\x8d\xa1\xf4\xff\xdfq\x97\xa2\xec\xea\xb1\x91 \x93xP\xbd\xac#\xd0\xb3m|}\xda\x10P{\\\xcc\x0cet\x9e\xba{\x14\xbcKN$\xfa\xe6mV\xac\xa9uk\xd8\x06\xc2k_\xa0\x01\xf9\x9b]2\xb1\xda\x98\xace\x91h\t\xbdw\xa8\xaa\x8d\xd0\xbf\'k\xea\ns\xb6\x1f\xf3`\xb7\x1e\x9aI\xf9q\xa1\xf65\x9fc5\xf2[)\xe5J\xe67\x16(\x0b\x03\x9b\xacc\x06\x06\xc8\xd6h\x94\xaa\x83?u\xc6\xcd1\x144\r\xd4F\x02\xa9\xdfP\xe3\x1e9\xcb\'\xc7\x91\xba\xf4\xf5\x93\xb5\x14\xbb\xd4\xb6\xb2\xdd\x88O\x01\xd9\x83\xe1\x06>~\x8a\xe9dN\xe0\x19\xc4\\GI\x9a\xa2\\\xf7>mh\x85\xf0U"?r\x9f\xac4\xf7\x9b\xfc\x94\xe5<\xde\x9b<\xf0x\xa18CaI\xe8\xedB\x9cP;\xf2|?\xe5P\x9d\xd8\xc1\xb5\xa2!\x19\xc5\t\xa4\xc0\xaf\x1b\xcev\xdb\x14\x0f\xa3\xbe\xe1[;\xdb\xfe[C\xea\xbfg#\xea\xc0\xf1\xd1\x07\xeexG\xfb\x16@e\xbb\x10\xab\xad\xa2@|\x98\xf5\xdeCT\xb5\x05\xe6\xe3\xfe\xff\x07\xcc6\xb5\x01\xfa\xdb\x05\xdc\x0e\xe6Q\x15Q\xfd"\xa5$\x9cnq\xbd\x11\xfd\xadB\xc2C\x89\xfa\xf1j\xeb#\x98\x85K\x9e\xf0u\x89p\xd4-\x81?h\x0c\xaf7\\\xb8\xeeJ\xb9\x90\x83\xbf\xd2J/\x86\xf1\x84QDz\xffU?\xbb\xfaeS\xe9\xaeV1\xad?1I^x\xf0\xb5N\x146X\x86\x85 T\xb0\xc6Y\x9b\xd8\x83\xc9\x13 \xd4\xca\x12\xdf\xdb\x07n\xab\xd3i;\xf2X\xb7\xe9\xe8\xc0\xe5f)\xb7\x8c\x83\xe2\xee5w\xc6\x07\x97\x1f\x86MG\'\xd1\xb4@\xe1g\xb5\xa9B\xa3e\xa78Z\x8f\xec\xc2-\xa0-\xfa\x15\x8f\x91\xcd%\x1cz4\x0c\x81"@\xaddw\x92\xcf\xab\x9cM)\xad\xfe\x8d0\x1f>^\xfdy(\xcb\x90\x1e\xf7\xa6)B\x189\xee\xc6\xffu`\x848\xa7yV\x01w\xa5\xb7\xfajP\xae\xac:\x95\xce\x19\x9c\x83\x90\x91\x8d\xd7"\xa4\xc0\xcb\xe7-\xaev6\xd7+p\x1b\xeb\x88\xf0h\x1a\xad\x0f%3\x01ek\x0b\x91\xff.x~7\x1e\xe6r\xc1\xbd\xb4\x05\xabs\x9bi\x1b\xaa \xe2\x9b\x18\x0b\x86\xe0\x10\xb06>\xe5\xf6\x87\x9f\xdav\x85\xbed]aN(UGx`\x9b\xc7\x14\xe1\xa1\x9ec\xd7\xf3"e\xc2\x97F\xd8\x13\x84\x865\xa8\xff}/\xbb\xac\x80Y\x03\xa3\x17?s\xc8\xe0\xc5k~\xc3\xec\xb5\xb8\xae\xf0n>\xf8\x9b\xbdzQ\xd6`\x8a\x9d\'\x9e\x81l\xe6|\xde\x16\xb2\x885\x93\xa3\xa3\xde\xb3\xa0\xd1\x03\xe4u\x08\xe0\xe4f\xac\xd9t\x16\xdfK\x95\x17\xcc\x11\xd6\xbdW\xf6\xbbk-\xc0\x8d\x0f\xac%s\xeb}\xed\xbbc\xdd\xdb\x162>\x8fI\x0ef\xf2\xaeY\xdd\xad\xee\x0f\x9aS\xb2\xfa\xc3\xca\xdf\x88\xf7\x042B{\xb60T\x00\x14\x01\xef\xb1\xef"\x06R\x16GV\xee[\xdf\xab\x1d\x19\xe8Q\x9b\xbc\x12\x93\x0e\x0e:\xa9m\xe4\xc7s$\x12\xa1\xa6a\xcb4\xac3t\xd53p\xa6%\xb4\xa4|\x13\x90Ap\x13x\xedJ`W\x89\xe7\x90\xe8\xd3&\x92\xe9=cL\xa8\xe6a3\x99\x84\'\x15?]\xd9\x87\x8a7\xba\n\xc5\xde\x17\x03\x03\x01\x19\xf1\xb8\r\x93\x83\x8fF=\xa5_8\xfb\x15\xc1k\xf8Y\x81\xe6\xb5\xb5\x06/\xf2\xa4\x17\x1f%\x03\xfc\n\xc89\xbf\x90\xc21\x9a\xb2w\x88$\xb7\xe3~\xbf\x97K\x87"\xe6j2\xf7|\xdb\xe0\xab\xd0\xda\x1d\x01\x17\x85\xcf~\xe87,\x8c\xdaI\x81\x89\xc0t\xc7R\x04\xe7k\x9cF\xdd6m*\x94,\xaa\r\xde|v\x0ecO\xdf\x01!\x1a\x84\x08\xd2r{\x9d\x84xQX\xf6?\xf2\x9cm\xe0TeQ"\xeb\x9e)\x0e\x92\xf8\xc1\xc2\x01\xf4e\x87\x9a\xfa\xae\xe5j}\x18\x10i>N\xd6-\xecC\t\xba\xdeZ\xa4U\x0f#\x92S\xc2CD\x0f#]n%\xecD\xdc\n\x91"\xe3!\xbc\x9ed\xbby\x8b\r\xcf\xe8\x06>\x8b\xa6x\xc80\xa2>\x0e.\x11 \xaa=\x9f\x83^\x91\x1a[*\xbd\xb6\x9f\x15\xa8\xa2\xe9b\x03A\xaf\xf7\x8df\xc2_9\x9c\x1cG\x0b\x9f\xde\xfau\xc1Z\xa3\xa3V\x7f\xd3.\x06\x04_\x1e4\\\xca\x197\x8e\r\x15\xe5\'{\xc9\x96\x99\xe8[\xb8\xc3\xb7\x8c\x95\xc8\xbe?9\xe6\x04\xb3\xd9E\x8e&\n\x84E\x8d\x02\x8c\xf8\x17\x03\x03\x00E"\xd7\xf4\x81\xf9\xb7\xe6\xbdpj_\xfb|5\x14\xb5\xe6"\xf5\x98M\xad\xcd\xae\xe1\xaf\x05p!m\x07\x8f\xf3\xb6\xa2&\xef\xe8\xbb\xff/\xca\xd8\x8bv\xca%#\x07\xc1S\xa7\xf4\xd2g{m#\xfe\xcf\xc40v:\x90\xcb\xdcI\x81')
+=== inspect.currentframe ===  <frame at 0x2d77de0, file 'mitmproxy/proxy/server.py', line 358, code server_event> /tmp/_MEIx8M5g3/mitmproxy/proxy/server.pyc mitmproxy.proxy.server
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 346, in hook_task
+  File "mitmproxy/proxy/server.py", line 359, in server_event
+
+
+===   traceback.print_stack() ===:  None
+
+
+ event: Reply(TlsEstablishedServerHook(data=TlsData(conn=Server({'id': '…800d2f', 'address': ('example.com', 443), 'peername': ('93.184.216.34', 443), 'sockname': ('192.168.71.10', 40238), 'state': <ConnectionState.OPEN: 3>, 'tls': True, 'certificate_list': [<Cert(cn='www.example.org', altnames=['www.example.org', 'example.net', 'example.edu', 'example.com', 'example.org', 'www.example.com', 'www.example.edu', 'www.example.net'])>, <Cert(cn='DigiCert TLS RSA SHA256 2020 CA1', altnames=[])>], 'alpn': b'h2', 'alpn_offers': (b'h2', b'http/1.1'), 'cipher': 'TLS_AES_256_GCM_SHA384', 'tls_version': 'TLSv1.3', 'sni': 'example.com', 'timestamp_start': 1682474161.865311, 'timestamp_tls_setup': 1682474162.7833605, 'timestamp_tcp_setup': 1682474162.1567955}), context=Context(
+  Client({'id': '…4e8217', 'address': None, 'peername': ('127.0.0.1', 43296), 'sockname': ('127.0.0.1', 8080), 'state': <ConnectionState.OPEN: 3>, 'tls': True, 'alpn_offers': [b'h2', b'http/1.1'], 'sni': 'example.com', 'timestamp_start': 1682474161.822702}),
+  Server({'id': '…800d2f', 'address': ('example.com', 443), 'peername': ('93.184.216.34', 443), 'sockname': ('192.168.71.10', 40238), 'state': <ConnectionState.OPEN: 3>, 'tls': True, 'certificate_list': [<Cert(cn='www.example.org', altnames=['www.example.org', 'example.net', 'example.edu', 'example.com', 'example.org', 'www.example.com', 'www.example.edu', 'www.example.net'])>, <Cert(cn='DigiCert TLS RSA SHA256 2020 CA1', altnames=[])>], 'alpn': b'h2', 'alpn_offers': (b'h2', b'http/1.1'), 'cipher': 'TLS_AES_256_GCM_SHA384', 'tls_version': 'TLSv1.3', 'sni': 'example.com', 'timestamp_start': 1682474161.865311, 'timestamp_tls_setup': 1682474162.7833605, 'timestamp_tcp_setup': 1682474162.1567955}),
+  layers=[[HttpProxy(state: handle_event), HttpLayer(regular, conns: 2), HttpStream(id=1, passthrough), ServerTLSLayer(establishing 'example.com' b'h2'), ClientTLSLayer(establishing 'example.com' None)]]
+), ssl_conn=<OpenSSL.SSL.Connection object at 0x7f7164838be0>, is_dtls=False)), None)
+=== inspect.currentframe ===  <frame at 0x2e32eb0, file 'mitmproxy/addons/tlsconfig.py', line 161, code tls_start_client> /tmp/_MEIx8M5g3/mitmproxy/addons/tlsconfig.pyc mitmproxy.addons.tlsconfig
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 344, in hook_task
+  File "mitmproxy/proxy/mode_servers.py", line 70, in handle_hook
+  File "mitmproxy/addonmanager.py", line 234, in handle_lifecycle
+  File "mitmproxy/addonmanager.py", line 288, in trigger_event
+  File "mitmproxy/addonmanager.py", line 265, in invoke_addon
+  File "mitmproxy/addons/tlsconfig.py", line 162, in tls_start_client
+
+
+===   traceback.print_stack() ===:  None
+
+
+tls_start: TlsData(conn=Client({'id': '…4e8217', 'address': None, 'peername': ('127.0.0.1', 43296), 'sockname': ('127.0.0.1', 8080), 'state': <ConnectionState.OPEN: 3>, 'tls': True, 'alpn_offers': [b'h2', b'http/1.1'], 'sni': 'example.com', 'timestamp_start': 1682474161.822702}), context=Context(
+  Client({'id': '…4e8217', 'address': None, 'peername': ('127.0.0.1', 43296), 'sockname': ('127.0.0.1', 8080), 'state': <ConnectionState.OPEN: 3>, 'tls': True, 'alpn_offers': [b'h2', b'http/1.1'], 'sni': 'example.com', 'timestamp_start': 1682474161.822702}),
+  Server({'id': '…800d2f', 'address': ('example.com', 443), 'peername': ('93.184.216.34', 443), 'sockname': ('192.168.71.10', 40238), 'state': <ConnectionState.OPEN: 3>, 'tls': True, 'certificate_list': [<Cert(cn='www.example.org', altnames=['www.example.org', 'example.net', 'example.edu', 'example.com', 'example.org', 'www.example.com', 'www.example.edu', 'www.example.net'])>, <Cert(cn='DigiCert TLS RSA SHA256 2020 CA1', altnames=[])>], 'alpn': b'h2', 'alpn_offers': (b'h2', b'http/1.1'), 'cipher': 'TLS_AES_256_GCM_SHA384', 'tls_version': 'TLSv1.3', 'sni': 'example.com', 'timestamp_start': 1682474161.865311, 'timestamp_tls_setup': 1682474162.7833605, 'timestamp_tcp_setup': 1682474162.1567955}),
+  layers=[[HttpProxy(state: handle_event), HttpLayer(regular, conns: 2), HttpStream(id=1, passthrough), ServerTLSLayer(open 'example.com' b'h2'), ClientTLSLayer(establishing 'example.com' None)]]
+), ssl_conn=None, is_dtls=False)
+=== inspect.currentframe ===  <frame at 0x2d77de0, file 'mitmproxy/proxy/server.py', line 358, code server_event> /tmp/_MEIx8M5g3/mitmproxy/proxy/server.pyc mitmproxy.proxy.server
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 346, in hook_task
+  File "mitmproxy/proxy/server.py", line 359, in server_event
+
+
+===   traceback.print_stack() ===:  None
+
+
+ event: Reply(TlsStartClientHook(data=TlsData(conn=Client({'id': '…4e8217', 'address': None, 'peername': ('127.0.0.1', 43296), 'sockname': ('127.0.0.1', 8080), 'state': <ConnectionState.OPEN: 3>, 'tls': True, 'alpn_offers': [b'h2', b'http/1.1'], 'sni': 'example.com', 'timestamp_start': 1682474161.822702}), context=Context(
+  Client({'id': '…4e8217', 'address': None, 'peername': ('127.0.0.1', 43296), 'sockname': ('127.0.0.1', 8080), 'state': <ConnectionState.OPEN: 3>, 'tls': True, 'alpn_offers': [b'h2', b'http/1.1'], 'sni': 'example.com', 'timestamp_start': 1682474161.822702}),
+  Server({'id': '…800d2f', 'address': ('example.com', 443), 'peername': ('93.184.216.34', 443), 'sockname': ('192.168.71.10', 40238), 'state': <ConnectionState.OPEN: 3>, 'tls': True, 'certificate_list': [<Cert(cn='www.example.org', altnames=['www.example.org', 'example.net', 'example.edu', 'example.com', 'example.org', 'www.example.com', 'www.example.edu', 'www.example.net'])>, <Cert(cn='DigiCert TLS RSA SHA256 2020 CA1', altnames=[])>], 'alpn': b'h2', 'alpn_offers': (b'h2', b'http/1.1'), 'cipher': 'TLS_AES_256_GCM_SHA384', 'tls_version': 'TLSv1.3', 'sni': 'example.com', 'timestamp_start': 1682474161.865311, 'timestamp_tls_setup': 1682474162.7833605, 'timestamp_tcp_setup': 1682474162.1567955}),
+  layers=[[HttpProxy(state: handle_event), HttpLayer(regular, conns: 2), HttpStream(id=1, passthrough), ServerTLSLayer(open 'example.com' b'h2'), ClientTLSLayer(establishing 'example.com' None)]]
+), ssl_conn=<OpenSSL.SSL.Connection object at 0x7f716483acb0>, is_dtls=False)), None)
+[[[[[[Jia]]]]]]  <frame at 0x7f7164842180, file 'mitmproxy/connection.py', line 124, code connected> /tmp/_MEIx8M5g3/mitmproxy/connection.pyc mitmproxy.connection
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 346, in hook_task
+  File "mitmproxy/proxy/server.py", line 364, in server_event
+  File "mitmproxy/proxy/layer.py", line 152, in handle_event
+  File "mitmproxy/proxy/layer.py", line 265, in handle_event
+  File "mitmproxy/proxy/layer.py", line 152, in handle_event
+  File "mitmproxy/proxy/layers/http/__init__.py", line 879, in _handle_event
+  File "mitmproxy/proxy/layers/http/__init__.py", line 935, in event_to_child
+  File "mitmproxy/proxy/layer.py", line 152, in handle_event
+  File "mitmproxy/proxy/layers/http/__init__.py", line 775, in passthrough
+  File "mitmproxy/proxy/layer.py", line 152, in handle_event
+  File "mitmproxy/proxy/tunnel.py", line 98, in _handle_event
+  File "mitmproxy/proxy/layers/tls.py", line 483, in event_to_child
+  File "mitmproxy/proxy/tunnel.py", line 153, in event_to_child
+  File "mitmproxy/proxy/layer.py", line 137, in handle_event
+  File "mitmproxy/proxy/layer.py", line 228, in __continue
+  File "mitmproxy/proxy/layer.py", line 191, in __process
+  File "mitmproxy/proxy/tunnel.py", line 70, in _handle_event
+  File "mitmproxy/proxy/layers/tls.py", line 595, in receive_handshake_data
+  File "mitmproxy/connection.py", line 125, in connected
+[[[[[[Jia]]]]]] traceback.print_stack() :  None
+=== inspect.currentframe ===  <frame at 0x2d77de0, file 'mitmproxy/proxy/server.py', line 358, code server_event> /tmp/_MEIx8M5g3/mitmproxy/proxy/server.pyc mitmproxy.proxy.server
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 291, in handle_connection
+  File "mitmproxy/proxy/server.py", line 359, in server_event
+
+
+===   traceback.print_stack() ===:  None
+
+
+ event: DataReceived(client, b'\x14\x03\x03\x00\x01\x01\x17\x03\x03\x00\x13y\xb3$[[I\xa8\x8d\x8bc=\xacd\xf4tF\x96v\x04')
+[09:56:02.867][127.0.0.1:43296] Client TLS handshake failed. The client does not trust the proxy's certificate for example.com (OpenSSL Error([('SSL routines', '', 'sslv3 alert certificate unknown')]))
+=== inspect.currentframe ===  <frame at 0x2d77de0, file 'mitmproxy/proxy/server.py', line 358, code server_event> /tmp/_MEIx8M5g3/mitmproxy/proxy/server.pyc mitmproxy.proxy.server
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 346, in hook_task
+  File "mitmproxy/proxy/server.py", line 359, in server_event
+
+
+===   traceback.print_stack() ===:  None
+
+
+ event: Reply(TlsFailedClientHook(data=TlsData(conn=Client({'id': '…4e8217', 'address': None, 'peername': ('127.0.0.1', 43296), 'sockname': ('127.0.0.1', 8080), 'state': <ConnectionState.OPEN: 3>, 'error': "The client does not trust the proxy's certificate for example.com (OpenSSL Error([('SSL routines', '', 'sslv3 alert certificate unknown')]))", 'tls': True, 'alpn_offers': [b'h2', b'http/1.1'], 'sni': 'example.com', 'timestamp_start': 1682474161.822702}), context=Context(
+  Client({'id': '…4e8217', 'address': None, 'peername': ('127.0.0.1', 43296), 'sockname': ('127.0.0.1', 8080), 'state': <ConnectionState.OPEN: 3>, 'error': "The client does not trust the proxy's certificate for example.com (OpenSSL Error([('SSL routines', '', 'sslv3 alert certificate unknown')]))", 'tls': True, 'alpn_offers': [b'h2', b'http/1.1'], 'sni': 'example.com', 'timestamp_start': 1682474161.822702}),
+  Server({'id': '…800d2f', 'address': ('example.com', 443), 'peername': ('93.184.216.34', 443), 'sockname': ('192.168.71.10', 40238), 'state': <ConnectionState.OPEN: 3>, 'tls': True, 'certificate_list': [<Cert(cn='www.example.org', altnames=['www.example.org', 'example.net', 'example.edu', 'example.com', 'example.org', 'www.example.com', 'www.example.edu', 'www.example.net'])>, <Cert(cn='DigiCert TLS RSA SHA256 2020 CA1', altnames=[])>], 'alpn': b'h2', 'alpn_offers': (b'h2', b'http/1.1'), 'cipher': 'TLS_AES_256_GCM_SHA384', 'tls_version': 'TLSv1.3', 'sni': 'example.com', 'timestamp_start': 1682474161.865311, 'timestamp_tls_setup': 1682474162.7833605, 'timestamp_tcp_setup': 1682474162.1567955}),
+  layers=[[HttpProxy(state: handle_event), HttpLayer(regular, conns: 2), HttpStream(id=1, passthrough), ServerTLSLayer(open 'example.com' b'h2'), ClientTLSLayer(establishing 'example.com' None)]]
+), ssl_conn=<OpenSSL.SSL.Connection object at 0x7f716483acb0>, is_dtls=False)), None)
+=== inspect.currentframe ===  <frame at 0x2d77de0, file 'mitmproxy/proxy/server.py', line 358, code server_event> /tmp/_MEIx8M5g3/mitmproxy/proxy/server.pyc mitmproxy.proxy.server
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 304, in handle_connection
+  File "mitmproxy/proxy/server.py", line 359, in server_event
+
+
+===   traceback.print_stack() ===:  None
+
+
+ event: ConnectionClosed(connection=Client({'id': '…4e8217', 'address': None, 'peername': ('127.0.0.1', 43296), 'sockname': ('127.0.0.1', 8080), 'error': "The client does not trust the proxy's certificate for example.com (OpenSSL Error([('SSL routines', '', 'sslv3 alert certificate unknown')]))", 'tls': True, 'alpn_offers': [b'h2', b'http/1.1'], 'sni': 'example.com', 'timestamp_start': 1682474161.822702}))
+[09:56:02.879][127.0.0.1:43296] client disconnect
+[09:56:02.880][127.0.0.1:43296] closing transports...
+=== inspect.currentframe ===  <frame at 0x2d77de0, file 'mitmproxy/proxy/server.py', line 358, code server_event> /tmp/_MEIx8M5g3/mitmproxy/proxy/server.pyc mitmproxy.proxy.server
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 304, in handle_connection
+  File "mitmproxy/proxy/server.py", line 359, in server_event
+
+
+===   traceback.print_stack() ===:  None
+
+
+ event: ConnectionClosed(connection=Server({'id': '…800d2f', 'address': ('example.com', 443), 'peername': ('93.184.216.34', 443), 'sockname': ('192.168.71.10', 40238), 'tls': True, 'certificate_list': [<Cert(cn='www.example.org', altnames=['www.example.org', 'example.net', 'example.edu', 'example.com', 'example.org', 'www.example.com', 'www.example.edu', 'www.example.net'])>, <Cert(cn='DigiCert TLS RSA SHA256 2020 CA1', altnames=[])>], 'alpn': b'h2', 'alpn_offers': (b'h2', b'http/1.1'), 'cipher': 'TLS_AES_256_GCM_SHA384', 'tls_version': 'TLSv1.3', 'sni': 'example.com', 'timestamp_start': 1682474161.865311, 'timestamp_tls_setup': 1682474162.7833605, 'timestamp_tcp_setup': 1682474162.1567955}))
+[09:56:02.891][127.0.0.1:43296] server disconnect example.com:443 (93.184.216.34:443)
+[09:56:02.893][127.0.0.1:43296] transports closed!
+[09:56:04.663][127.0.0.1:43304] client connect
+=== inspect.currentframe ===  <frame at 0x2d77de0, file 'mitmproxy/proxy/server.py', line 358, code server_event> /tmp/_MEIx8M5g3/mitmproxy/proxy/server.pyc mitmproxy.proxy.server
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/mode_servers.py", line 211, in handle_tcp_connection
+  File "mitmproxy/proxy/server.py", line 151, in handle_client
+  File "mitmproxy/proxy/server.py", line 359, in server_event
+
+
+===   traceback.print_stack() ===:  None
+
+
+ event: Start({})
+=== inspect.currentframe ===  <frame at 0x2d77de0, file 'mitmproxy/proxy/server.py', line 358, code server_event> /tmp/_MEIx8M5g3/mitmproxy/proxy/server.pyc mitmproxy.proxy.server
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 291, in handle_connection
+  File "mitmproxy/proxy/server.py", line 359, in server_event
+
+
+===   traceback.print_stack() ===:  None
+
+
+ event: DataReceived(client, b'CONNECT a-ring.msedge.net:443 HTTP/1.1\r\nHost: a-ring.msedge.net:443\r\nProxy-Connection: keep-alive\r\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Skype/8.96.0.408 Chrome/102.0.5005.167 Electron/19.1.8 Safari/537.36\r\n\r\n')
+=== inspect.currentframe ===  <frame at 0x2d77de0, file 'mitmproxy/proxy/server.py', line 358, code server_event> /tmp/_MEIx8M5g3/mitmproxy/proxy/server.pyc mitmproxy.proxy.server
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 346, in hook_task
+  File "mitmproxy/proxy/server.py", line 359, in server_event
+
+
+===   traceback.print_stack() ===:  None
+
+
+ event: Reply(NextLayerHook(data=NextLayer:HttpLayer(regular, conns: 0)), None)
+=== inspect.currentframe ===  <frame at 0x2d77de0, file 'mitmproxy/proxy/server.py', line 358, code server_event> /tmp/_MEIx8M5g3/mitmproxy/proxy/server.pyc mitmproxy.proxy.server
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 346, in hook_task
+  File "mitmproxy/proxy/server.py", line 359, in server_event
+
+
+===   traceback.print_stack() ===:  None
+
+
+ event: [[[[[[Jia]]]]]]  <frame at 0x2d53a30, file 'mitmproxy/connection.py', line 133, code tls_established> /tmp/_MEIx8M5g3/mitmproxy/connection.pyc mitmproxy.connection
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 346, in hook_task
+  File "mitmproxy/proxy/server.py", line 361, in server_event
+  File "mitmproxy/proxy/events.py", line 104, in __repr__
+  File "dataclasses.py", line 405, in wrapper
+  File "<string>", line 3, in __repr__
+  File "mitmproxy/http.py", line 1287, in __repr__
+  File "mitmproxy/connection.py", line 198, in __str__
+  File "mitmproxy/connection.py", line 134, in tls_established
+[[[[[[Jia]]]]]] traceback.print_stack() :  None
+[[[[[[Jia]]]]]]  <frame at 0x2d53a30, file 'mitmproxy/connection.py', line 133, code tls_established> /tmp/_MEIx8M5g3/mitmproxy/connection.pyc mitmproxy.connection
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 346, in hook_task
+  File "mitmproxy/proxy/server.py", line 361, in server_event
+  File "mitmproxy/proxy/events.py", line 104, in __repr__
+  File "dataclasses.py", line 405, in wrapper
+  File "<string>", line 3, in __repr__
+  File "mitmproxy/http.py", line 1287, in __repr__
+  File "mitmproxy/connection.py", line 294, in __str__
+  File "mitmproxy/connection.py", line 134, in tls_established
+[[[[[[Jia]]]]]] traceback.print_stack() :  None
+Reply(HttpConnectHook(flow=<HTTPFlow
+  request = Request(CONNECT a-ring.msedge.net:443)
+  client_conn = Client(127.0.0.1:43304, state=open)
+  server_conn = Server(<no address>, state=closed)>), None)
+[09:56:08.491][127.0.0.1:56936] client connect
+=== inspect.currentframe ===  <frame at 0x2d77de0, file 'mitmproxy/proxy/server.py', line 358, code server_event> /tmp/_MEIx8M5g3/mitmproxy/proxy/server.pyc mitmproxy.proxy.server
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/mode_servers.py", line 211, in handle_tcp_connection
+  File "mitmproxy/proxy/server.py", line 151, in handle_client
+  File "mitmproxy/proxy/server.py", line 359, in server_event
+
+
+===   traceback.print_stack() ===:  None
+
+
+ event: Start({})
+=== inspect.currentframe ===  <frame at 0x2d77de0, file 'mitmproxy/proxy/server.py', line 358, code server_event> /tmp/_MEIx8M5g3/mitmproxy/proxy/server.pyc mitmproxy.proxy.server
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 291, in handle_connection
+  File "mitmproxy/proxy/server.py", line 359, in server_event
+
+
+===   traceback.print_stack() ===:  None
+
+
+ event: DataReceived(client, b'CONNECT www.google.com:443 HTTP/1.1\r\nHost: www.google.com:443\r\nProxy-Connection: keep-alive\r\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36\r\n\r\n')
+=== inspect.currentframe ===  <frame at 0x2d77de0, file 'mitmproxy/proxy/server.py', line 358, code server_event> /tmp/_MEIx8M5g3/mitmproxy/proxy/server.pyc mitmproxy.proxy.server
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 346, in hook_task
+  File "mitmproxy/proxy/server.py", line 359, in server_event
+
+
+===   traceback.print_stack() ===:  None
+
+
+ event: Reply(NextLayerHook(data=NextLayer:HttpLayer(regular, conns: 0)), None)
+=== inspect.currentframe ===  <frame at 0x2d77de0, file 'mitmproxy/proxy/server.py', line 358, code server_event> /tmp/_MEIx8M5g3/mitmproxy/proxy/server.pyc mitmproxy.proxy.server
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 346, in hook_task
+  File "mitmproxy/proxy/server.py", line 359, in server_event
+
+
+===   traceback.print_stack() ===:  None
+
+
+ event: [[[[[[Jia]]]]]]  <frame at 0x2d53a30, file 'mitmproxy/connection.py', line 133, code tls_established> /tmp/_MEIx8M5g3/mitmproxy/connection.pyc mitmproxy.connection
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 346, in hook_task
+  File "mitmproxy/proxy/server.py", line 361, in server_event
+  File "mitmproxy/proxy/events.py", line 104, in __repr__
+  File "dataclasses.py", line 405, in wrapper
+  File "<string>", line 3, in __repr__
+  File "mitmproxy/http.py", line 1287, in __repr__
+  File "mitmproxy/connection.py", line 198, in __str__
+  File "mitmproxy/connection.py", line 134, in tls_established
+[[[[[[Jia]]]]]] traceback.print_stack() :  None
+[[[[[[Jia]]]]]]  <frame at 0x2d53a30, file 'mitmproxy/connection.py', line 133, code tls_established> /tmp/_MEIx8M5g3/mitmproxy/connection.pyc mitmproxy.connection
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/server.py", line 346, in hook_task
+  File "mitmproxy/proxy/server.py", line 361, in server_event
+  File "mitmproxy/proxy/events.py", line 104, in __repr__
+  File "dataclasses.py", line 405, in wrapper
+  File "<string>", line 3, in __repr__
+  File "mitmproxy/http.py", line 1287, in __repr__
+  File "mitmproxy/connection.py", line 294, in __str__
+  File "mitmproxy/connection.py", line 134, in tls_established
+[[[[[[Jia]]]]]] traceback.print_stack() :  None
+Reply(HttpConnectHook(flow=<HTTPFlow
+  request = Request(CONNECT www.google.com:443)
+  client_conn = Client(127.0.0.1:56936, state=open)
+  server_conn = Server(<no address>, state=closed)>), None)
+[09:56:09.075][127.0.0.1:56948] client connect
+=== inspect.currentframe ===  <frame at 0x2d77de0, file 'mitmproxy/proxy/server.py', line 358, code server_event> /tmp/_MEIx8M5g3/mitmproxy/proxy/server.pyc mitmproxy.proxy.server
+  File "mitmdump", line 3, in <module>
+  File "mitmproxy/tools/main.py", line 155, in mitmdump
+  File "mitmproxy/tools/main.py", line 132, in run
+  File "asyncio/runners.py", line 44, in run
+  File "asyncio/base_events.py", line 633, in run_until_complete
+  File "asyncio/base_events.py", line 600, in run_forever
+  File "asyncio/base_events.py", line 1896, in _run_once
+  File "asyncio/events.py", line 80, in _run
+  File "mitmproxy/proxy/mode_servers.py", line 211, in handle_tcp_connection
+  File "mitmproxy/proxy/server.py", line 151, in handle_client
+  File "mitmproxy/proxy/server.py", line 359, in server_event
+
+
+===   traceback.print_stack() ===:  None
+
